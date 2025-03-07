@@ -1,7 +1,0 @@
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.AssemblyReference.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.CoreCompileInputs.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe.config
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.pdb
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.exe
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\Unidad 02 - POO\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.pdb

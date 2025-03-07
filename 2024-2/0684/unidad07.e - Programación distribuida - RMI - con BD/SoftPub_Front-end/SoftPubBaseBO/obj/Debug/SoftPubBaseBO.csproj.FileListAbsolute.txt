@@ -1,7 +1,0 @@
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\bin\Debug\SoftPubBaseBO.dll.config
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\bin\Debug\SoftPubBaseBO.dll
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\bin\Debug\SoftPubBaseBO.pdb
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\obj\Debug\SoftPubBaseBO.csproj.AssemblyReference.cache
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\obj\Debug\SoftPubBaseBO.csproj.CoreCompileInputs.cache
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\obj\Debug\SoftPubBaseBO.dll
-G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad07.b - Programación distribuida - con BD\SoftPub_Front-end\SoftPubBaseBO\obj\Debug\SoftPubBaseBO.pdb

@@ -1,7 +1,0 @@
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\bin\SoftPubWA.dll.config
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\bin\SoftPubWA.dll
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\bin\SoftPubWA.pdb
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\obj\Debug\SoftPubWA.csproj.AssemblyReference.cache
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\obj\Debug\SoftPubWA.csproj.CoreCompileInputs.cache
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\obj\Debug\SoftPubWA.dll
-D:\unidad06.a_Web_01\SofPub\SoftPubWA\obj\Debug\SoftPubWA.pdb

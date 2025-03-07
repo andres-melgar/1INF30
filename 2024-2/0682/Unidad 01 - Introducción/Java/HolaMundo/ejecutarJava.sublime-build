@@ -1,4 +1,0 @@
-{
-    "cmd": "javac ${file_name} && java ${file_base_name}",
-    "shell": true
-}

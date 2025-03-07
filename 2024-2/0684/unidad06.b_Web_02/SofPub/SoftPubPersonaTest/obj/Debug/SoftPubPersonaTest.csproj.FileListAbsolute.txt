@@ -1,7 +1,0 @@
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\bin\Debug\SoftPubPersonaTest.exe.config
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\bin\Debug\SoftPubPersonaTest.exe
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\bin\Debug\SoftPubPersonaTest.pdb
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\obj\Debug\SoftPubPersonaTest.csproj.AssemblyReference.cache
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\obj\Debug\SoftPubPersonaTest.csproj.CoreCompileInputs.cache
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\obj\Debug\SoftPubPersonaTest.exe
-D:\unidad06.b_Web_02\SofPub\SoftPubPersonaTest\obj\Debug\SoftPubPersonaTest.pdb

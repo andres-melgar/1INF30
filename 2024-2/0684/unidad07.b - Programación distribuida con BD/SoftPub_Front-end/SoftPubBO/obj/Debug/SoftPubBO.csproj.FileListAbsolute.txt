@@ -1,7 +1,0 @@
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\bin\Debug\SoftPubBO.dll.config
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\bin\Debug\SoftPubBO.dll
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\bin\Debug\SoftPubBO.pdb
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\obj\Debug\SoftPubBO.csproj.AssemblyReference.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\obj\Debug\SoftPubBO.csproj.CoreCompileInputs.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\obj\Debug\SoftPubBO.dll
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0684\unidad07.b - Programación distribuida con BD\SoftPub_Front-end\SoftPubBO\obj\Debug\SoftPubBO.pdb

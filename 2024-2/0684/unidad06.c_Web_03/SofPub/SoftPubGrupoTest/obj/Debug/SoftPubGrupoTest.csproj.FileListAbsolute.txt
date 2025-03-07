@@ -1,7 +1,0 @@
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\bin\Debug\SoftPubGrupoTest.exe.config
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\bin\Debug\SoftPubGrupoTest.exe
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\bin\Debug\SoftPubGrupoTest.pdb
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\obj\Debug\SoftPubGrupoTest.csproj.AssemblyReference.cache
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\obj\Debug\SoftPubGrupoTest.csproj.CoreCompileInputs.cache
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\obj\Debug\SoftPubGrupoTest.exe
-D:\unidad06.b_Web_02\SofPub\SoftPubGrupoTest\obj\Debug\SoftPubGrupoTest.pdb

@@ -1,2 +1,0 @@
-csc HolaMundo.cs
-HolaMundo

@@ -1,7 +1,0 @@
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\bin\Debug\SoftPubPublicacionTest.exe.config
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\bin\Debug\SoftPubPublicacionTest.exe
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\bin\Debug\SoftPubPublicacionTest.pdb
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\obj\Debug\SoftPubPublicacionTest.csproj.AssemblyReference.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\obj\Debug\SoftPubPublicacionTest.csproj.CoreCompileInputs.cache
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\obj\Debug\SoftPubPublicacionTest.exe
-G:\Mi unidad\GitHubRepositorio\1INF30\2024-2\0682\unidad06.b_Web_02\SofPub\SoftPubPublicacionTest\obj\Debug\SoftPubPublicacionTest.pdb
