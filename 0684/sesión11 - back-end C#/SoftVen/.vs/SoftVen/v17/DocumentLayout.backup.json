@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftVen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D47D2051-F71F-4701-8C17-D81D6D779731}|SoftVenTest\\SoftVenTest.csproj|d:\\softven\\softventest\\softvenbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D47D2051-F71F-4701-8C17-D81D6D779731}|SoftVenTest\\SoftVenTest.csproj|solutionrelative:softventest\\softvenbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A4D0B3-5BE5-4A8B-A0B8-DBE307F4EFB5}|SoftVenBusiness\\SoftVenBusiness.csproj|d:\\softven\\softvenbusiness\\productobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A4D0B3-5BE5-4A8B-A0B8-DBE307F4EFB5}|SoftVenBusiness\\SoftVenBusiness.csproj|solutionrelative:softvenbusiness\\productobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoftVenBOTest.cs",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenTest\\SoftVenBOTest.cs",
+              "RelativeDocumentMoniker": "SoftVenTest\\SoftVenBOTest.cs",
+              "ToolTip": "D:\\SoftVen\\SoftVenTest\\SoftVenBOTest.cs",
+              "RelativeToolTip": "SoftVenTest\\SoftVenBOTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:17:34.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoBO.cs",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenBusiness\\ProductoBO.cs",
+              "RelativeDocumentMoniker": "SoftVenBusiness\\ProductoBO.cs",
+              "ToolTip": "D:\\SoftVen\\SoftVenBusiness\\ProductoBO.cs",
+              "RelativeToolTip": "SoftVenBusiness\\ProductoBO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:16:35.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
