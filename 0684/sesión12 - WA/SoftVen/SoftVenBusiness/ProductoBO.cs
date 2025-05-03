@@ -29,6 +29,28 @@ namespace SoftVenBusiness
             return this.productoDAO.Insertar(productosDTO);
         }
 
+        public int Modificar(int productoId, string nombre, string descripcion, double precio)
+        {
+            ProductosDTO productosDTO = new ProductosDTO();
+            productosDTO.ProductoId = productoId;
+            productosDTO.Nombre = nombre;
+            productosDTO.Descripcion = descripcion;
+            productosDTO.Precio = precio;
+            return this.productoDAO.Modificar(productosDTO);
+        }
+
+        public int Eliminar(int productoId)
+        {
+            ProductosDTO productosDTO = new ProductosDTO();
+            productosDTO.ProductoId = productoId;
+            return this.productoDAO.Eliminar(productosDTO);
+        }
+
+        public ProductosDTO ObtenerPorId(int productoId)
+        {
+            return this.productoDAO.ObtenerPorId(productoId);
+        }
+
         public BindingList<ProductosDTO> ListarTodos()
         {
             return this.productoDAO.ListarTodos();

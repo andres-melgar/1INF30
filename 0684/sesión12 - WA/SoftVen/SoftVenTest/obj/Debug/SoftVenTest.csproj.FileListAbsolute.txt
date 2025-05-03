@@ -1,15 +1,5 @@
 D:\SoftVen\SoftVenTest\obj\Debug\SoftVenTest.csproj.AssemblyReference.cache
 D:\SoftVen\SoftVenTest\obj\Debug\SoftVenTest.csproj.CoreCompileInputs.cache
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
-D:\SoftVen\SoftVenTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\SoftVen\SoftVenTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\SoftVen\SoftVenTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\SoftVen\SoftVenTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
 D:\SoftVen\SoftVenTest\bin\Debug\SoftVenTest.dll.config
 D:\SoftVen\SoftVenTest\bin\Debug\SoftVenTest.dll
 D:\SoftVen\SoftVenTest\bin\Debug\SoftVenTest.pdb

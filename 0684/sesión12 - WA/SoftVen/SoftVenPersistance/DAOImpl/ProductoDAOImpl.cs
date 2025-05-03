@@ -39,19 +39,20 @@ namespace SoftVenPersistance.DAOImpl
         
         protected override void IncluirValorDeParametrosParaModificacion()
         {
-            //this.statement.setString(1, this.almacen.getNombre());
-            //this.statement.setInt(2, this.almacen.getAlmacen_central() ? 1 : 0);
-            //this.statement.setInt(3, this.almacen.getAlmacenId());
+            this.AgregarParametro("@PRODUCTO_ID", this.producto.ProductoId);
+            this.AgregarParametro("@NOMBRE", this.producto.Nombre);
+            this.AgregarParametro("@DESCRIPCION", this.producto.Descripcion);
+            this.AgregarParametro("@PRECIO", this.producto.Precio);
         }
 
         protected override void IncluirValorDeParametrosParaEliminacion()
         {
-            //this.statement.setInt(1, this.almacen.getAlmacenId());
+            this.AgregarParametro("@PRODUCTO_ID", this.producto.ProductoId);
         }
 
         protected override void IncluirValorDeParametrosParaObtenerPorId()
         {
-            //this.statement.setInt(1, this.almacen.getAlmacenId());
+            this.AgregarParametro("@PRODUCTO_ID", this.producto.ProductoId);
         }
 
         protected override void InstanciarObjetoDelResultSet(DbDataReader lector)
