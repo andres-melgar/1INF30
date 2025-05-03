@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftVenPersistance", "SoftV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftVenBusiness", "SoftVenBusiness\SoftVenBusiness.csproj", "{F942556C-EC24-4D16-A229-DDA1F2C4C19F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftVenWA", "SoftVenWA\SoftVenWA.csproj", "{ED9C6726-8540-4916-87E7-2D8B6F3809E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F942556C-EC24-4D16-A229-DDA1F2C4C19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F942556C-EC24-4D16-A229-DDA1F2C4C19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F942556C-EC24-4D16-A229-DDA1F2C4C19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9C6726-8540-4916-87E7-2D8B6F3809E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9C6726-8540-4916-87E7-2D8B6F3809E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9C6726-8540-4916-87E7-2D8B6F3809E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9C6726-8540-4916-87E7-2D8B6F3809E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

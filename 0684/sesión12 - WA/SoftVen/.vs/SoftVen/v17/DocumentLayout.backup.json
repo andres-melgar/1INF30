@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SoftVen\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|d:\\softven\\softvenwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|solutionrelative:softvenwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|d:\\softven\\softvenwa\\prueba.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|solutionrelative:softvenwa\\prueba.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|d:\\softven\\softvenwa\\prueba.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9C6726-8540-4916-87E7-2D8B6F3809E6}|SoftVenWA\\SoftVenWA.csproj|solutionrelative:softvenwa\\prueba.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenWA\\Web.config",
+              "RelativeDocumentMoniker": "SoftVenWA\\Web.config",
+              "ToolTip": "D:\\SoftVen\\SoftVenWA\\Web.config",
+              "RelativeToolTip": "SoftVenWA\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-03T20:29:46.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prueba.aspx",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenWA\\Prueba.aspx",
+              "RelativeDocumentMoniker": "SoftVenWA\\Prueba.aspx",
+              "ToolTip": "D:\\SoftVen\\SoftVenWA\\Prueba.aspx",
+              "RelativeToolTip": "SoftVenWA\\Prueba.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-03T20:25:13.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prueba.aspx.cs",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenWA\\Prueba.aspx.cs",
+              "RelativeDocumentMoniker": "SoftVenWA\\Prueba.aspx.cs",
+              "ToolTip": "D:\\SoftVen\\SoftVenWA\\Prueba.aspx.cs",
+              "RelativeToolTip": "SoftVenWA\\Prueba.aspx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T20:22:55.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
