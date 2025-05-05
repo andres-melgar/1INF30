@@ -98,6 +98,9 @@
     <Content Include="Content\Fonts\LICENSE.txt" />
     <Content Include="Content\site.css" />
     <Content Include="Images\pucp.png" />
+    <Content Include="index.aspx" />
+    <Content Include="producto_gestion.aspx" />
+    <Content Include="producto_listado.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -120,7 +123,35 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto_gestion.aspx.cs">
+      <DependentUpon>producto_gestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto_gestion.aspx.designer.cs">
+      <DependentUpon>producto_gestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="producto_listado.aspx.cs">
+      <DependentUpon>producto_listado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="producto_listado.aspx.designer.cs">
+      <DependentUpon>producto_listado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoftVen.Master.cs">
+      <DependentUpon>SoftVen.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SoftVen.Master.designer.cs">
+      <DependentUpon>SoftVen.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\bootstrap.min.js.map" />
@@ -148,6 +179,7 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.1.min.map" />
+    <Content Include="SoftVen.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
