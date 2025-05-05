@@ -22,7 +22,7 @@
     }
 
         .mynav li a.active {
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.2);
         }
 
         .mynav li a:hover {
