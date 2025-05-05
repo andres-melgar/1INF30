@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftVen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{128147BF-30B1-4B08-9DB1-608AC5617A51}|SoftVenWA\\SoftVenWA.csproj|D:\\SoftVen\\softvenwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{128147BF-30B1-4B08-9DB1-608AC5617A51}|SoftVenWA\\SoftVenWA.csproj|solutionrelative:softvenwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenWA\\Web.config",
+              "RelativeDocumentMoniker": "SoftVenWA\\Web.config",
+              "ToolTip": "D:\\SoftVen\\SoftVenWA\\Web.config",
+              "RelativeToolTip": "SoftVenWA\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-03T17:16:03.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
