@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftInv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E71754E3-A9E8-4411-8F44-C94D63E547C4}|SoftInvTest\\SoftInvTest.csproj|d:\\softinv\\softinvtest\\softinvbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71754E3-A9E8-4411-8F44-C94D63E547C4}|SoftInvTest\\SoftInvTest.csproj|solutionrelative:softinvtest\\softinvbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoftInvBOTest.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvTest\\SoftInvBOTest.cs",
+              "RelativeDocumentMoniker": "SoftInvTest\\SoftInvBOTest.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvTest\\SoftInvBOTest.cs",
+              "RelativeToolTip": "SoftInvTest\\SoftInvBOTest.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:45:20.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
