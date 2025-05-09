@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftVen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{128147BF-30B1-4B08-9DB1-608AC5617A51}|SoftVenWA\\SoftVenWA.csproj|d:\\softven\\softvenwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{128147BF-30B1-4B08-9DB1-608AC5617A51}|SoftVenWA\\SoftVenWA.csproj|solutionrelative:softvenwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "producto_listado.aspx.cs",
+              "DocumentMoniker": "D:\\SoftVen\\SoftVenWA\\producto_listado.aspx.cs",
+              "RelativeDocumentMoniker": "SoftVenWA\\producto_listado.aspx.cs",
+              "ToolTip": "D:\\SoftVen\\SoftVenWA\\producto_listado.aspx.cs",
+              "RelativeToolTip": "SoftVenWA\\producto_listado.aspx.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:58:23.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
