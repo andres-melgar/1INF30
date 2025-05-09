@@ -221,3 +221,4 @@ C:\SoftInv\SoftInvWA\obj\Debug\SoftInvWA.csproj.Up2Date
 C:\SoftInv\SoftInvWA\obj\Debug\SoftInvWA.dll
 C:\SoftInv\SoftInvWA\obj\Debug\SoftInvWA.pdb
 C:\SoftInv\SoftInvWA\bin\System.Diagnostics.DiagnosticSource.dll
+D:\SoftInv\SoftInvWA\bin\System.Diagnostics.DiagnosticSource.dll
