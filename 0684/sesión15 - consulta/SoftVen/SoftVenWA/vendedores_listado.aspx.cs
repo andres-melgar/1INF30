@@ -13,15 +13,21 @@ namespace SoftVenWA
     public partial class vendedores_listado : System.Web.UI.Page
     {
         private TiendaBO tiendaBO;
+        private VendedorBO vendedorBO;
         private BindingList<TiendasDTO> listaTiendas;
+        private BindingList<VendedoresDTO> listaVendedores;
 
         public TiendaBO TiendaBO { get => tiendaBO; set => tiendaBO = value; }
         public BindingList<TiendasDTO> ListaTiendas { get => listaTiendas; set => listaTiendas = value; }
+        public VendedorBO VendedorBO { get => vendedorBO; set => vendedorBO = value; }
+        public BindingList<VendedoresDTO> ListaVendedores { get => listaVendedores; set => listaVendedores = value; }
 
         public vendedores_listado()
         {
             this.TiendaBO = new TiendaBO();
+            this.VendedorBO = new VendedorBO();
             this.ListaTiendas = null;
+            this.ListaVendedores = null;
         }
 
         protected void Page_Load(object sender, EventArgs e)
@@ -50,7 +56,11 @@ namespace SoftVenWA
 
         protected void btnConsultarVendedores_Click(object sender, EventArgs e)
         {
-
+            int tiendaId = Int32.Parse(ddlTienda.SelectedValue);
+            string nombre = txtNombre.Text;
+            this.ListaVendedores = this.VendedorBO.ConsultarVendedores(tiendaId, nombre);
+            gvVendedores.DataSource = this.ListaVendedores;
+            gvVendedores.DataBind();
         }
     }
 }

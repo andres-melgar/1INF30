@@ -46,6 +46,7 @@
     <Compile Include="DAOImpl\TiendaDAOImpl.cs" />
     <Compile Include="DAOImpl\Util\Columna.cs" />
     <Compile Include="DAOImpl\Util\TipoOperacionDML.cs" />
+    <Compile Include="DAOImpl\Util\VendedorParametro.cs" />
     <Compile Include="DAOImpl\VendedorDAOImpl.cs" />
     <Compile Include="DAO\ProductoDAO.cs" />
     <Compile Include="DAO\TiendaDAO.cs" />

@@ -55,7 +55,8 @@ namespace SoftVen.DAOImpl
         {
             BindingList<Object> lista;
             string sql = this.GenerarSQLParaConsultaVendedores();
-            lista = base.ListarTodos(sql);
+            VendedorParametro parametro = new VendedorParametro(tiendaId, nombres);            
+            lista = base.ListarTodos(sql, this.incluirValorDeParametroParaConsultaDeVendedores, parametro);
             BindingList<VendedoresDTO> retorno = new BindingList<VendedoresDTO>();
             foreach (VendedoresDTO objecto in lista)
             {
@@ -75,8 +76,17 @@ namespace SoftVen.DAOImpl
             sql += "FROM VEN_VENDEDORES v ";
             sql += "JOIN VEN_TIENDAS t ON ";
             sql += "T.TIENDA_ID = v.TIENDA_ID ";
-            sql += "WHERE(0 = @TIENDA_ID OR v.TIENDA_ID = @TIENDA_ID)";
+            sql += "WHERE (0 = @TIENDA_ID OR v.TIENDA_ID = @TIENDA_ID) ";
+            sql += "AND (v.PATERNO LIKE @NOMBRES OR v.MATERNO LIKE @NOMBRES OR v.NOMBRES LIKE @NOMBRES)";
             return sql;
         }
+
+       private void incluirValorDeParametroParaConsultaDeVendedores(object vendedorParametroObjeto)
+        {
+            VendedorParametro vendedorParametro = (VendedorParametro)vendedorParametroObjeto;
+            this.AgregarParametro("@TIENDA_ID", vendedorParametro.TiendaId);
+            this.AgregarParametro("@NOMBRES", vendedorParametro.Nombres);
+        }
+        
     }
 }

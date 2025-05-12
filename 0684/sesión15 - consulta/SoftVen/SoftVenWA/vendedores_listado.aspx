@@ -25,6 +25,17 @@
                         <asp:Button ID="btnConsultarVendedores" runat="server" Text="Consultar" CssClass="btn btn-primary" OnClick="btnConsultarVendedores_Click" />
                     </div>
                 </div>
+                <div class="row">
+                    <asp:GridView ID="gvVendedores" runat="server" AllowPaging="false" AutoGenerateColumns="false" CssClass="table table-hover table-responsive table-striped">
+                        <Columns>
+                            <asp:BoundField HeaderText="Tienda" DataField="Tienda.Nombre" />
+                            <asp:BoundField HeaderText="Matricula" DataField="VendedorId" />
+                            <asp:BoundField HeaderText="Ap. Paterno" DataField="Paterno" />
+                            <asp:BoundField HeaderText="Ap. Materno" DataField="Materno" />
+                            <asp:BoundField HeaderText="Nombres" DataField="Nombre" />
+                        </Columns>
+                    </asp:GridView>
+                </div>
             </div>
          </div>
         <div class="card-footer clearfix">

@@ -381,10 +381,12 @@ namespace SoftVen.DAOImpl
         protected BindingList<Object> ListarTodos()
         {
             string sql = null;
-            return this.ListarTodos(sql);
+            Action<object> agregarParametros = null;
+            object parametros = null;
+            return this.ListarTodos(sql, agregarParametros, parametros);
         }
 
-        protected BindingList<Object> ListarTodos(string sql)
+        protected BindingList<Object> ListarTodos(string sql, Action<object> agregarParametros, object parametros)
         {
             BindingList<Object> lista = new BindingList<Object>();
             this.comando = DBManager.Instance.CrearComando();
@@ -394,6 +396,8 @@ namespace SoftVen.DAOImpl
                 if (sql==null)
                     sql = this.GenerarSQLParaListarTodos();
                 this.ColocarSQLenComando(sql);
+                if (agregarParametros != null)
+                    agregarParametros(parametros);
                 this.EjecutarConsultaEnBD();
                 while (this.lector.Read())
                 {
