@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="DAOImpl\AlmacenDAOImpl.cs" />
     <Compile Include="DAOImpl\DAOImplBase.cs" />
+    <Compile Include="DAOImpl\TipoProductoDAOImpl.cs" />
     <Compile Include="DAOImpl\Util\Columna.cs" />
     <Compile Include="DAOImpl\Util\TipoOperacionDML.cs" />
     <Compile Include="DAO\AlmacenDAO.cs" />
     <Compile Include="DAO\TipoDocumentoDAO.cs" />
+    <Compile Include="DAO\TipoProductoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

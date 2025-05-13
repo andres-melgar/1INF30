@@ -18,6 +18,8 @@
     </title>
 </head>
 <body>
+    <asp:ContentPlaceHolder ID="cphScripts" runat="server">
+    </asp:ContentPlaceHolder>
     <div class="container-fluid d-flex p-0 h-100">
         <!--Menu Lateral-->
         <div id="bdSidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-primary text-white offcanvas-md offcanvas-start">

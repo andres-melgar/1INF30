@@ -123,6 +123,7 @@
     <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.js" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\SoftInvScripts\gestionar_modales_productos.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

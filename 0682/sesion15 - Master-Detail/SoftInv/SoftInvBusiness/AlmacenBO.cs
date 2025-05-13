@@ -8,7 +8,7 @@ using SoftInv.DAO;
 using SoftInv.DAOImpl;
 using SoftInv.Model;
 
-namespace SoftInvBusiness
+namespace SoftInv.BO
 {
     public class AlmacenBO
     {

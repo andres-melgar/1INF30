@@ -45,8 +45,13 @@ namespace SoftInvWA
         protected void lbModificar_Click(object sender, EventArgs e)
         {
             int almacenId = Int32.Parse(((LinkButton)sender).CommandArgument);
-            Session["almacenId"] = almacenId;
+            Session["almacenId"] = almacenId;            
             Response.Redirect("almacen_gestion.aspx?accion=modificar");
+        }
+
+        protected void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx");
         }
     }
 }

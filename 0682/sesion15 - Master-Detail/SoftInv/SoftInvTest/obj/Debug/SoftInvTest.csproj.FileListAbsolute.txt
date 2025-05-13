@@ -1,15 +1,5 @@
 D:\SoftInv\SoftInvTest\obj\Debug\SoftInvTest.csproj.AssemblyReference.cache
 D:\SoftInv\SoftInvTest\obj\Debug\SoftInvTest.csproj.CoreCompileInputs.cache
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
-D:\SoftInv\SoftInvTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\SoftInv\SoftInvTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\SoftInv\SoftInvTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\SoftInv\SoftInvTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
 D:\SoftInv\SoftInvTest\bin\Debug\SoftInvTest.dll
 D:\SoftInv\SoftInvTest\bin\Debug\SoftInvTest.pdb
 D:\SoftInv\SoftInvTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll

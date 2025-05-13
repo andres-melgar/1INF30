@@ -10,7 +10,13 @@
                 <Columns>
                     <asp:BoundField HeaderText="Id del Almacén" DataField="AlmacenID"/>
                     <asp:BoundField HeaderText="Nombre del Almacén" DataField="Nombre"/>
-                    <asp:BoundField HeaderText="¿Almacén Central?" DataField="AlmacenCentral"/>
+                    <%--<asp:BoundField HeaderText="¿Almacén Central?" DataField="AlmacenCentral"/>--%>
+                    <asp:TemplateField HeaderText="Nombre del Almacén">
+                        <ItemStyle HorizontalAlign="Center"/>
+                        <ItemTemplate>
+                            <asp:CheckBox ID="ckAlmacenCentral" runat="server" Enabled="false" Checked='<%# Convert.ToBoolean(Eval("AlmacenCentral")) %>' />
+                        </ItemTemplate>
+                    </asp:TemplateField>
                     <asp:TemplateField>
                         <ItemTemplate>
                             <asp:LinkButton ID="lbModificar" runat="server" Text="<i class='fa-solid fa-edit ps-2'></i>" CommandArgument='<%# Eval("AlmacenId")%>' OnClick="lbModificar_Click"/>
@@ -22,7 +28,8 @@
         </div>
         <div class="container row">
             <div class="text-end">
-                <asp:Button ID="btnInsertar" CssClass="float-start btn btn-primary" runat="server" Text="Insertar" OnClick="btnInsertar_Click"/>
+                <asp:Button ID="btnRegresar" CssClass="float-start btn btn-primary me-2" runat="server" Text="Regresar" OnClick="btnRegresar_Click"/>
+                <asp:Button ID="btnInsertar" CssClass="float-start btn btn-secondary" runat="server" Text="Insertar" OnClick="btnInsertar_Click"/>                
             </div>
         </div>
     </div>

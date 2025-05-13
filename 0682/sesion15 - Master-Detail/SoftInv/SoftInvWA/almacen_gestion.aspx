@@ -1,11 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SoftInv.Master" AutoEventWireup="true" CodeBehind="almacen_gestion.aspx.cs" Inherits="SoftInvWA.almacen_gestion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphTitulo" runat="server">
-    Creación de Almacén
+<%--    Creación de Almacén--%>
+    <%: CabeceraPagina %>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphContenido" runat="server">
     <div class="card">
         <div class="card-header">
-            <h2> Creación de Almacén</h2>
+            <%--<h2> Creación de Almacén</h2>--%>
+            <h2> <%: CabeceraPagina %></h2>
         </div>
         <div class="card-body">
             <div class="mb-3 row">
