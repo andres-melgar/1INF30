@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import pe.edu.pucp.softinv.bo.AlmacenBO;
 import pe.edu.pucp.softinv.model.AlmacenesDTO;
 
-@WebService(serviceName = "Almacenes")
+@WebService(serviceName = "almacenes")
 public class Almacenes {
 
     private AlmacenBO almacenBO;

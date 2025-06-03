@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softinv.dao.TipoDocumentoDAOTest" time="0.056" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softinv.dao.TipoDocumentoDAOTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance\target\test-classes;G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance\target\classes;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;D:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;D:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;D:\Users\amelgar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.10.0.jre8\mssql-jdbc-12.10.0.jre8.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;"/>
+    <property name="java.class.path" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance\target\test-classes;G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance\target\classes;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;D:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;D:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;D:\Users\amelgar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.10.0.jre8\mssql-jdbc-12.10.0.jre8.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="D:\Users\amelgar\AppData\Local\Temp\surefire13274206041306716280\surefirebooter-20250530085108794_3.jar D:\Users\amelgar\AppData\Local\Temp\surefire13274206041306716280 2025-05-30T08-51-08_664-jvmRun1 surefire-20250530085108794_1tmp surefire_0-20250530085108794_2tmp"/>
+    <property name="sun.java.command" value="D:\Users\amelgar\AppData\Local\Temp\surefire10065918378796350959\surefirebooter-20250603073552020_3.jar D:\Users\amelgar\AppData\Local\Temp\surefire10065918378796350959 2025-06-03T07-35-51_890-jvmRun1 surefire-20250603073552020_1tmp surefire_0-20250603073552020_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance\target\test-classes;G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance\target\classes;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;D:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;D:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;D:\Users\amelgar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.10.0.jre8\mssql-jdbc-12.10.0.jre8.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;"/>
+    <property name="surefire.test.class.path" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance\target\test-classes;G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance\target\classes;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;D:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;D:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;D:\Users\amelgar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.10.0.jre8\mssql-jdbc-12.10.0.jre8.jar;D:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="D:\Users\amelgar"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance"/>
+    <property name="basedir" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="D:\Users\amelgar\AppData\Local\Temp\surefire13274206041306716280\surefirebooter-20250530085108794_3.jar"/>
+    <property name="surefire.real.class.path" value="D:\Users\amelgar\AppData\Local\Temp\surefire10065918378796350959\surefirebooter-20250603073552020_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="D:\Users\amelgar\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.4"/>
-    <property name="user.dir" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión18 - WS - SOAP\Back-End\SoftInvPersistance"/>
+    <property name="user.dir" value="G:\Mi unidad\GitHubRepositorio\1INF30\0682\sesión19 - WS - SOAP\Back-End\SoftInvPersistance"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,16 +59,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testInsertar" classname="pe.edu.pucp.softinv.dao.TipoDocumentoDAOTest" time="0.048">
+  <testcase name="testInsertar" classname="pe.edu.pucp.softinv.dao.TipoDocumentoDAOTest" time="0.047">
     <system-out><![CDATA[insertar
 ]]></system-out>
-    <system-err><![CDATA[may 30, 2025 8:51:10 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
+    <system-err><![CDATA[jun 03, 2025 7:35:53 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
 INFO: com.mysql.cj.jdbc.CallableStatement: INSERT INTO INV_TIPOS_DOCUMENTOS(TIPO_DOCUMENTO_ID, NOMBRE) VALUES (1, 'Orden de compra')
-may 30, 2025 8:51:10 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
+jun 03, 2025 7:35:53 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
 INFO: com.mysql.cj.jdbc.CallableStatement: INSERT INTO INV_TIPOS_DOCUMENTOS(TIPO_DOCUMENTO_ID, NOMBRE) VALUES (2, 'Guía de remisión')
-may 30, 2025 8:51:10 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
+jun 03, 2025 7:35:53 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
 INFO: com.mysql.cj.jdbc.CallableStatement: DELETE FROM INV_TIPOS_DOCUMENTOS WHERE TIPO_DOCUMENTO_ID=1
-may 30, 2025 8:51:10 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
+jun 03, 2025 7:35:53 A. M. pe.edu.pucp.softinv.daoImp.DAOImplBase ejecutarModificacionEnBD
 INFO: com.mysql.cj.jdbc.CallableStatement: DELETE FROM INV_TIPOS_DOCUMENTOS WHERE TIPO_DOCUMENTO_ID=2
 ]]></system-err>
   </testcase>
