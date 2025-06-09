@@ -3,8 +3,9 @@ package pe.edu.pucp.softven.services;
 import jakarta.jws.WebService;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
+import java.io.IOException;
 import java.util.ArrayList;
-import pe.edu.pucp.softven.bo.ProductoBO;
+import pe.edu.pucp.softven.bo.client.ProductoBO;
 import pe.edu.pucp.softven.model.ProductosDTO;
 
 @WebService(serviceName = "productos")
@@ -17,7 +18,7 @@ public class Productos {
     }
 
     @WebMethod(operationName = "insertar")
-    public Integer insertar(@WebParam(name = "nombre") String nombre, @WebParam(name = "descripcion") String descripcion, @WebParam(name = "precio") Double precio) {
+    public Integer insertar(@WebParam(name = "nombre") String nombre, @WebParam(name = "descripcion") String descripcion, @WebParam(name = "precio") Double precio) throws IOException {
         return this.productoBO.insertar(nombre, descripcion, precio);
     }
 

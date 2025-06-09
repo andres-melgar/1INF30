@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>pe.edu.pucp.softven</groupId>
-    <artifactId>SoftVenBusiness</artifactId>
+    <artifactId>SoftVenBusinessClienteWS</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <dependencies>
@@ -10,11 +10,6 @@
             <groupId>e.edu.pucp.softven</groupId>
             <artifactId>SoftVenModel</artifactId>
             <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>SoftVenPersistance</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -34,6 +29,16 @@
             <version>5.6.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.19.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>10.0.0</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,4 +46,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>pe.edu.pucp.softven.bo.SoftVenBusiness</exec.mainClass>
     </properties>
+    <name>SoftVenBusinessClienteWS</name>
 </project>

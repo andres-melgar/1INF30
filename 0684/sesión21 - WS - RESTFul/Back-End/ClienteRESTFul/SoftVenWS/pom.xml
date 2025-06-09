@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>SoftVenBusiness</artifactId>
+            <artifactId>SoftVenBusinessClienteWS</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
