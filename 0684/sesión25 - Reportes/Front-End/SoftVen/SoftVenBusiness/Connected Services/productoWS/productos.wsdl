@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.softven.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="productos" targetNamespace="http://services.softven.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/SoftVenWS/productos?xsd=1" namespace="http://services.softven.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="insertar">
+    <part name="parameters" element="tns:insertar" />
+  </message>
+  <message name="insertarResponse">
+    <part name="parameters" element="tns:insertarResponse" />
+  </message>
+  <message name="IOException">
+    <part name="fault" element="tns:IOException" />
+  </message>
+  <message name="JsonProcessingException">
+    <part name="fault" element="tns:JsonProcessingException" />
+  </message>
+  <message name="InterruptedException">
+    <part name="fault" element="tns:InterruptedException" />
+  </message>
+  <message name="eliminar">
+    <part name="parameters" element="tns:eliminar" />
+  </message>
+  <message name="eliminarResponse">
+    <part name="parameters" element="tns:eliminarResponse" />
+  </message>
+  <message name="modificar">
+    <part name="parameters" element="tns:modificar" />
+  </message>
+  <message name="modificarResponse">
+    <part name="parameters" element="tns:modificarResponse" />
+  </message>
+  <message name="listarTodos">
+    <part name="parameters" element="tns:listarTodos" />
+  </message>
+  <message name="listarTodosResponse">
+    <part name="parameters" element="tns:listarTodosResponse" />
+  </message>
+  <message name="obtenerPorId">
+    <part name="parameters" element="tns:obtenerPorId" />
+  </message>
+  <message name="obtenerPorIdResponse">
+    <part name="parameters" element="tns:obtenerPorIdResponse" />
+  </message>
+  <message name="reporteTiendas">
+    <part name="parameters" element="tns:reporteTiendas" />
+  </message>
+  <message name="reporteTiendasResponse">
+    <part name="parameters" element="tns:reporteTiendasResponse" />
+  </message>
+  <message name="reporteVendedores">
+    <part name="parameters" element="tns:reporteVendedores" />
+  </message>
+  <message name="reporteVendedoresResponse">
+    <part name="parameters" element="tns:reporteVendedoresResponse" />
+  </message>
+  <portType name="Productos">
+    <operation name="insertar">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/insertarRequest" message="tns:insertar" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/insertarResponse" message="tns:insertarResponse" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/insertar/Fault/IOException" name="IOException" message="tns:IOException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/insertar/Fault/JsonProcessingException" name="JsonProcessingException" message="tns:JsonProcessingException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/insertar/Fault/InterruptedException" name="InterruptedException" message="tns:InterruptedException" />
+    </operation>
+    <operation name="eliminar">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/eliminarRequest" message="tns:eliminar" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/eliminarResponse" message="tns:eliminarResponse" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/eliminar/Fault/IOException" name="IOException" message="tns:IOException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/eliminar/Fault/InterruptedException" name="InterruptedException" message="tns:InterruptedException" />
+    </operation>
+    <operation name="modificar">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/modificarRequest" message="tns:modificar" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/modificarResponse" message="tns:modificarResponse" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/modificar/Fault/IOException" name="IOException" message="tns:IOException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/modificar/Fault/JsonProcessingException" name="JsonProcessingException" message="tns:JsonProcessingException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/modificar/Fault/InterruptedException" name="InterruptedException" message="tns:InterruptedException" />
+    </operation>
+    <operation name="listarTodos">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/listarTodosRequest" message="tns:listarTodos" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/listarTodosResponse" message="tns:listarTodosResponse" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/listarTodos/Fault/IOException" name="IOException" message="tns:IOException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/listarTodos/Fault/InterruptedException" name="InterruptedException" message="tns:InterruptedException" />
+    </operation>
+    <operation name="obtenerPorId">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/obtenerPorIdRequest" message="tns:obtenerPorId" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/obtenerPorIdResponse" message="tns:obtenerPorIdResponse" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/obtenerPorId/Fault/IOException" name="IOException" message="tns:IOException" />
+      <fault wsam:Action="http://services.softven.pucp.edu.pe/Productos/obtenerPorId/Fault/InterruptedException" name="InterruptedException" message="tns:InterruptedException" />
+    </operation>
+    <operation name="reporteTiendas">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/reporteTiendasRequest" message="tns:reporteTiendas" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/reporteTiendasResponse" message="tns:reporteTiendasResponse" />
+    </operation>
+    <operation name="reporteVendedores">
+      <input wsam:Action="http://services.softven.pucp.edu.pe/Productos/reporteVendedoresRequest" message="tns:reporteVendedores" />
+      <output wsam:Action="http://services.softven.pucp.edu.pe/Productos/reporteVendedoresResponse" message="tns:reporteVendedoresResponse" />
+    </operation>
+  </portType>
+  <binding name="ProductosPortBinding" type="tns:Productos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="insertar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </fault>
+      <fault name="JsonProcessingException">
+        <soap:fault use="literal" name="JsonProcessingException" namespace="" />
+      </fault>
+      <fault name="InterruptedException">
+        <soap:fault use="literal" name="InterruptedException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="eliminar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </fault>
+      <fault name="InterruptedException">
+        <soap:fault use="literal" name="InterruptedException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modificar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </fault>
+      <fault name="JsonProcessingException">
+        <soap:fault use="literal" name="JsonProcessingException" namespace="" />
+      </fault>
+      <fault name="InterruptedException">
+        <soap:fault use="literal" name="InterruptedException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="listarTodos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </fault>
+      <fault name="InterruptedException">
+        <soap:fault use="literal" name="InterruptedException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="obtenerPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </fault>
+      <fault name="InterruptedException">
+        <soap:fault use="literal" name="InterruptedException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="reporteTiendas">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="reporteVendedores">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="productos">
+    <port name="ProductosPort" binding="tns:ProductosPortBinding">
+      <soap:address location="http://localhost:8080/SoftVenWS/productos" />
+    </port>
+  </service>
+</definitions>
