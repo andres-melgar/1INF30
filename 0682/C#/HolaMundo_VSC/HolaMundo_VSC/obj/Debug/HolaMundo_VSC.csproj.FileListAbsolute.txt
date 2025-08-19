@@ -1,0 +1,7 @@
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\bin\Debug\HolaMundo_VSC.exe.config
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\bin\Debug\HolaMundo_VSC.exe
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\bin\Debug\HolaMundo_VSC.pdb
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\obj\Debug\HolaMundo_VSC.csproj.AssemblyReference.cache
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\obj\Debug\HolaMundo_VSC.csproj.CoreCompileInputs.cache
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\obj\Debug\HolaMundo_VSC.exe
+G:\Mi unidad\GitHubRepositorio\HolaMundo_VSC\HolaMundo_VSC\obj\Debug\HolaMundo_VSC.pdb
