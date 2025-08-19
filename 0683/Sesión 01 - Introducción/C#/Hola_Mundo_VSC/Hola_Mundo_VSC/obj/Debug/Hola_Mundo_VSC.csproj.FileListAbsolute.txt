@@ -1,0 +1,7 @@
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\bin\Debug\Hola_Mundo_VSC.exe.config
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\bin\Debug\Hola_Mundo_VSC.exe
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\bin\Debug\Hola_Mundo_VSC.pdb
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\obj\Debug\Hola_Mundo_VSC.csproj.AssemblyReference.cache
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\obj\Debug\Hola_Mundo_VSC.csproj.CoreCompileInputs.cache
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\obj\Debug\Hola_Mundo_VSC.exe
+D:\GitHubRepositorio\1INF30\0683\Sesión 01 - Introducción\C#\Hola_Mundo_VSC\Hola_Mundo_VSC\obj\Debug\Hola_Mundo_VSC.pdb
