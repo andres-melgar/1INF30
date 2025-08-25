@@ -1,0 +1,7 @@
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v02.exe.config
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v02.exe
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v02.pdb
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.csproj.AssemblyReference.cache
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.csproj.CoreCompileInputs.cache
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.exe
+D:\GitHubRepositorio\1INF30\0682\Sesión 02 - POO\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.pdb
