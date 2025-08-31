@@ -1,0 +1,14 @@
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.AssemblyReference.cache
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.CoreCompileInputs.cache
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe.config
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.pdb
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.exe
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\unidad02.c - librerías\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.pdb
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe.config
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.exe
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\bin\Debug\Publicaciones_v01.pdb
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.AssemblyReference.cache
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.csproj.CoreCompileInputs.cache
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.exe
+G:\Mi unidad\GitHubRepositorio\1INF30-melgar\sesión05 - lib C#\C#\Publicaciones_v01\Publicaciones_v01\obj\Debug\Publicaciones_v01.pdb

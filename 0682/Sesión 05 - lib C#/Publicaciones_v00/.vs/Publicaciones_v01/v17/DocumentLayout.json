@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\clase_de_tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\clase_de_tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\tesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|g:\\mi unidad\\githubrepositorio\\1inf30-melgar\\sesi\u00F3n05 - lib c#\\c#\\publicaciones_v01\\publicaciones_v01\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\publicaciones_v01\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v01\\Publicaciones_v01.csproj|solutionrelative:publicaciones_v01\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tesis.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Tesis.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Tesis.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Tesis.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Tesis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:28:56.836Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clase_de_Tesis.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Clase_de_Tesis.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Clase_de_Tesis.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Clase_de_Tesis.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Clase_de_Tesis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:36:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Autor.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Autor.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Autor.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Autor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:33:33.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Libro.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Libro.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Libro.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Libro.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:28:54.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Articulo.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Articulo.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Articulo.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:28:53.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Publicacion.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Publicacion.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Publicacion.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Publicacion.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Publicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:27:07.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Program.cs",
+              "RelativeDocumentMoniker": "Publicaciones_v01\\Program.cs",
+              "ToolTip": "G:\\Mi unidad\\GitHubRepositorio\\1INF30-melgar\\sesi\u00F3n05 - lib C#\\C#\\Publicaciones_v01\\Publicaciones_v01\\Program.cs",
+              "RelativeToolTip": "Publicaciones_v01\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:18:21.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
