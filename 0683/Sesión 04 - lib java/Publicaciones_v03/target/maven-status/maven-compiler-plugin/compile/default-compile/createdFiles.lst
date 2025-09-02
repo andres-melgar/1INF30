@@ -1,0 +1,15 @@
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\AbstractFactoryPublicacion.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardIEEE\ConcreteFactoryIEEE.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardIEEE\Tesis$1.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardAPA\Libro.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardAPA\Articulo.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardAPA\Tesis$1.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\Publicacion.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardAPA\Tesis.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardIEEE\Libro.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardIEEE\Tesis.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\Autor.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\Publicaciones_v03.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardIEEE\Articulo.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\Clase_de_Tesis.class
+pe\edu\pucp\inf30\sesiones\publicaciones03\publicaciones\estandardAPA\ConcreteFactoryAPA.class

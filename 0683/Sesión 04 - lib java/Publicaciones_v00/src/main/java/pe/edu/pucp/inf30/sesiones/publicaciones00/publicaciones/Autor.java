@@ -1,9 +1,5 @@
 package pe.edu.pucp.inf30.sesiones.publicaciones00.publicaciones;
 
-/**
- *
- * Autor: andres
- */
 public class Autor {
 
     private String apellidos;

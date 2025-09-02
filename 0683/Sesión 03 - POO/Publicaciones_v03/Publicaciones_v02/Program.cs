@@ -29,7 +29,7 @@ namespace Publicaciones_v03
             
             foreach (Publicacion publicacion in publicaciones)
             {
-                publicacion.Referenciar();
+                publicacion.Referenciar();                
                 //Console.WriteLine(publicacion.MetodoAbstracto());
                 Publicacion.orden_publicacion++;
             }
