@@ -1,0 +1,8 @@
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v01.exe.config
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v01.exe
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\bin\Debug\Publicaciones_v01.pdb
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.csproj.AssemblyReference.cache
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v01.exe.config
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v02.csproj.CoreCompileInputs.cache
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v01.exe
+D:\GitHubRepositorio\1INF30\0682\Sesión 05 - lib C#\Publicaciones_v02\Publicaciones_v02\obj\Debug\Publicaciones_v01.pdb

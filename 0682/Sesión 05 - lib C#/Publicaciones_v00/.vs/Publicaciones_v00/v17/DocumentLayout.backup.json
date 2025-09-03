@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHubRepositorio\\1INF30\\0682\\sesi\u00F3n05 - lib C#\\Publicaciones_v00\\",
+  "WorkspaceRootPath": "D:\\GitHubRepositorio\\1INF30\\0682\\Sesi\u00F3n 05 - lib C#\\Publicaciones_v00\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v00\\Publicaciones_v00.csproj|d:\\githubrepositorio\\1inf30\\0682\\sesi\u00F3n05 - lib c#\\publicaciones_v00\\publicaciones_v00\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v00\\Publicaciones_v00.csproj|d:\\githubrepositorio\\1inf30\\0682\\sesi\u00F3n 05 - lib c#\\publicaciones_v00\\publicaciones_v00\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{017D7D4D-BAB2-4CE2-BFCE-3B252A0A50A0}|Publicaciones_v00\\Publicaciones_v00.csproj|solutionrelative:publicaciones_v00\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Principal.cs",
-              "DocumentMoniker": "D:\\GitHubRepositorio\\1INF30\\0682\\sesi\u00F3n05 - lib C#\\Publicaciones_v00\\Publicaciones_v00\\Principal.cs",
+              "DocumentMoniker": "D:\\GitHubRepositorio\\1INF30\\0682\\Sesi\u00F3n 05 - lib C#\\Publicaciones_v00\\Publicaciones_v00\\Principal.cs",
               "RelativeDocumentMoniker": "Publicaciones_v00\\Principal.cs",
-              "ToolTip": "D:\\GitHubRepositorio\\1INF30\\0682\\sesi\u00F3n05 - lib C#\\Publicaciones_v00\\Publicaciones_v00\\Principal.cs",
+              "ToolTip": "D:\\GitHubRepositorio\\1INF30\\0682\\Sesi\u00F3n 05 - lib C#\\Publicaciones_v00\\Publicaciones_v00\\Principal.cs",
               "RelativeToolTip": "Publicaciones_v00\\Principal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
