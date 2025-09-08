@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
+import pe.edu.pucp.softinv.db.util.Cifrado;
 
 public class DBManager {
     
@@ -41,7 +42,9 @@ public class DBManager {
     public Connection getConnection(){
         try {
             Class.forName(this.driver);
-            this.conexion = DriverManager.getConnection(this.getURL(), this.usuario, this.contraseña);
+            System.out.println(this.getURL());
+            this.conexion = DriverManager.getConnection(this.getURL(), this.usuario, Cifrado.descifrarMD5(this.contraseña));
+            //this.conexion = DriverManager.getConnection(this.getURL(), "admin", "Programacion3!");
         } catch (ClassNotFoundException ex) {
             System.getLogger(DBManager.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
         } catch (SQLException ex) {
