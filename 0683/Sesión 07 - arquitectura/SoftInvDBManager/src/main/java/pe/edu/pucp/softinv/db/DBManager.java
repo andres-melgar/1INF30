@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
+import pe.edu.pucp.softinv.db.util.Cifrado;
 
 
 public class DBManager {
@@ -64,7 +65,7 @@ public class DBManager {
     public Connection getConnection(){
         try {
             Class.forName(this.driver);
-            this.conexion = DriverManager.getConnection(this.getURL(), this.usuario, this.contraseña);
+            this.conexion = DriverManager.getConnection(this.getURL(), this.usuario, Cifrado.descifrarMD5(this.contraseña));
         } catch (ClassNotFoundException ex) {
             System.getLogger(DBManager.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
         } catch (SQLException ex) {
@@ -74,7 +75,13 @@ public class DBManager {
     }
 
     private String getURL() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        String url = this.tipo_de_driver.concat("://");
+        url = url.concat(this.nombre_de_host);
+        url = url.concat(":");
+        url = url.concat(this.puerto);
+        url = url.concat("/");
+        url = url.concat(this.base_de_datos);
+        return url;
     }
     
 }
