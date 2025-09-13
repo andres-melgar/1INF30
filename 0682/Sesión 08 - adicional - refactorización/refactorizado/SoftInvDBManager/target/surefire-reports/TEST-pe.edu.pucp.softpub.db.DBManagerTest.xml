@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softpub.db.DBManagerTest" time="1.043" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softpub.db.DBManagerTest" time="0.923" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager\target\classes;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;"/>
+    <property name="java.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager\target\classes;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\amelgar\AppData\Local\Temp\surefire15443905818056192941\surefirebooter-20250912192926077_3.jar C:\Users\amelgar\AppData\Local\Temp\surefire15443905818056192941 2025-09-12T19-29-25_813-jvmRun1 surefire-20250912192926077_1tmp surefire_0-20250912192926077_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amelgar\AppData\Local\Temp\surefire3456068971309963340\surefirebooter-20250913091318813_3.jar C:\Users\amelgar\AppData\Local\Temp\surefire3456068971309963340 2025-09-13T09-13-18_522-jvmRun1 surefire-20250913091318813_1tmp surefire_0-20250913091318813_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager\target\classes;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager\target\classes;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\amelgar"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-07-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager"/>
+    <property name="basedir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amelgar\AppData\Local\Temp\surefire15443905818056192941\surefirebooter-20250912192926077_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amelgar\AppData\Local\Temp\surefire3456068971309963340\surefirebooter-20250913091318813_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.2+12-54"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\amelgar\AppData\Local\Temp\"/>
     <property name="java.version" value="24.0.2"/>
-    <property name="user.dir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvDBManager"/>
+    <property name="user.dir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvDBManager"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,11 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testGetConnection" classname="pe.edu.pucp.softpub.db.DBManagerTest" time="1.004">
+  <testcase name="testGetConnection" classname="pe.edu.pucp.softpub.db.DBManagerTest" time="0.88">
     <system-out><![CDATA[getConnection
 ]]></system-out>
   </testcase>
-  <testcase name="testGetInstance" classname="pe.edu.pucp.softpub.db.DBManagerTest" time="0.002">
+  <testcase name="testGetInstance" classname="pe.edu.pucp.softpub.db.DBManagerTest" time="0.001">
     <system-out><![CDATA[getInstance
 ]]></system-out>
   </testcase>

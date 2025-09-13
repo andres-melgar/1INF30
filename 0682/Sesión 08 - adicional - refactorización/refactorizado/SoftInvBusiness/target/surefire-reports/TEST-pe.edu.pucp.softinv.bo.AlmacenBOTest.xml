@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="2.294" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="2.088" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness\target\classes;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvPersistance\1.0\SoftInvPersistance-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness\target\classes;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvPersistance\1.0\SoftInvPersistance-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="PE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\amelgar\AppData\Local\Temp\surefire18308431980073533431\surefirebooter-20250912195937035_3.jar C:\Users\amelgar\AppData\Local\Temp\surefire18308431980073533431 2025-09-12T19-59-36_739-jvmRun1 surefire-20250912195937035_1tmp surefire_0-20250912195937035_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amelgar\AppData\Local\Temp\surefire11768285367759783590\surefirebooter-20250913091552658_3.jar C:\Users\amelgar\AppData\Local\Temp\surefire11768285367759783590 2025-09-13T09-15-52_389-jvmRun1 surefire-20250913091552658_1tmp surefire_0-20250913091552658_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness\target\classes;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvPersistance\1.0\SoftInvPersistance-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness\target\test-classes;D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness\target\classes;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvModel\1.0\SoftInvModel-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvPersistance\1.0\SoftInvPersistance-1.0.jar;C:\Users\amelgar\.m2\repository\pe\edu\pucp\softinv\SoftInvDBManager\1.0\SoftInvDBManager-1.0.jar;C:\Users\amelgar\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\amelgar\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\amelgar\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\amelgar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\amelgar\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\amelgar"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-07-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness"/>
+    <property name="basedir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amelgar\AppData\Local\Temp\surefire18308431980073533431\surefirebooter-20250912195937035_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amelgar\AppData\Local\Temp\surefire11768285367759783590\surefirebooter-20250913091552658_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.2+12-54"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\amelgar\AppData\Local\Temp\"/>
     <property name="java.version" value="24.0.2"/>
-    <property name="user.dir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\sin_refactorizar\SoftInvBusiness"/>
+    <property name="user.dir" value="D:\GitHubRepositorio\1INF30\0682\Sesión 08 - adicional - refactorización\refactorizado\SoftInvBusiness"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,23 +59,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testModificar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="1.331">
+  <testcase name="testModificar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="1.272">
     <system-out><![CDATA[modificar
 ]]></system-out>
   </testcase>
-  <testcase name="testObtenerPorId" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.304">
+  <testcase name="testObtenerPorId" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.242">
     <system-out><![CDATA[obtenerPorId
 ]]></system-out>
   </testcase>
-  <testcase name="testEliminar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.222">
+  <testcase name="testEliminar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.203">
     <system-out><![CDATA[eliminar
 ]]></system-out>
   </testcase>
-  <testcase name="testInsertar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.204">
+  <testcase name="testInsertar" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.167">
     <system-out><![CDATA[insertar
 ]]></system-out>
   </testcase>
-  <testcase name="testListarTodos" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.196">
+  <testcase name="testListarTodos" classname="pe.edu.pucp.softinv.bo.AlmacenBOTest" time="0.169">
     <system-out><![CDATA[listarTodos
 ]]></system-out>
   </testcase>

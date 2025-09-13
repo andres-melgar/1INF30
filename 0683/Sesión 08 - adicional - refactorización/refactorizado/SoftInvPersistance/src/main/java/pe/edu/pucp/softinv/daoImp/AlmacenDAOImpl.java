@@ -1,68 +1,52 @@
 package pe.edu.pucp.softinv.daoImp;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import pe.edu.pucp.softinv.dao.AlmacenDAO;
+import pe.edu.pucp.softinv.daoImp.util.Columna;
 import pe.edu.pucp.softinv.db.DBManager;
 import pe.edu.pucp.softinv.model.AlmacenesDTO;
 
-public class AlmacenDAOImpl implements AlmacenDAO {
+public class AlmacenDAOImpl extends DAOImplBase implements AlmacenDAO {
 
-    private Connection conexion;
-    private CallableStatement statement;
-    protected ResultSet resultSet;
+    private AlmacenesDTO almacen;
 
-    @Override
-    public Integer insertar(AlmacenesDTO almacen) {
-        int resultado = 0;
-        try {
-            this.conexion = DBManager.getInstance().getConnection();
-            this.conexion.setAutoCommit(false);
-            String sql = "INSERT INTO INV_ALMACENES (NOMBRE, ALMACEN_CENTRAL) VALUES (?,?)";
-            this.statement = this.conexion.prepareCall(sql);
-            this.statement.setString(1, almacen.getNombre());
-            this.statement.setInt(2, almacen.getAlmacen_central() ? 1 : 0);
-            //resultado = this.statement.executeUpdate();
-            this.statement.executeUpdate();
-            resultado = this.retornarUltimoAutoGenerado();
-            this.conexion.commit();
-        } catch (SQLException ex) {
-            System.err.println("Error al intentar insertar - " + ex);
-            try {
-                if (this.conexion != null) {
-                    this.conexion.rollback();
-                }
-            } catch (SQLException ex1) {
-                System.err.println("Error al hacer rollback - " + ex1);
-            }
-        } finally {
-            try {
-                if (this.conexion != null) {
-                    this.conexion.close();
-                }
-            } catch (SQLException ex) {
-                System.err.println("Error al cerrar la conexión - " + ex);
-            }
-        }
-        return resultado;
+    public AlmacenDAOImpl() {
+        super("INV_ALMACENES");
+        this.almacen = null;
+        this.retornarLlavePrimaria = true;
     }
 
-    public Integer retornarUltimoAutoGenerado() {
-        Integer resultado = null;
-        try {
-            String sql = "select @@last_insert_id as id";
-            this.statement = this.conexion.prepareCall(sql);
-            this.resultSet = this.statement.executeQuery();
-            if (this.resultSet.next()) {
-                resultado = this.resultSet.getInt("id");
-            }
-        } catch (SQLException ex) {
-            System.err.println("Error al intentar retornarUltimoAutoGenerado - " + ex);
-        }
-        return resultado;
+    @Override
+    protected void configurarListaDeColumnas() {
+        this.listaColumnas.add(new Columna("ALMACEN_ID", true, true));
+        this.listaColumnas.add(new Columna("NOMBRE", false, false));
+        this.listaColumnas.add(new Columna("ALMACEN_CENTRAL", false, false));
+    }
+
+
+    @Override
+    protected void incluirValorDeParametrosParaInsercion() throws SQLException {
+        this.statement.setString(1, this.almacen.getNombre());
+        this.statement.setInt(2, this.almacen.getAlmacen_central() ? 1 : 0);
+    }
+
+    @Override
+    protected void incluirValorDeParametrosParaModificacion() throws SQLException {        
+        this.statement.setString(1, this.almacen.getNombre());
+        this.statement.setInt(2, this.almacen.getAlmacen_central() ? 1 : 0);
+        this.statement.setInt(3, this.almacen.getAlmacenId());
+    }
+
+    @Override
+    protected void incluirValorDeParametrosParaEliminacion() throws SQLException{
+        this.statement.setInt(1, this.almacen.getAlmacenId());
+    }
+
+    @Override
+    public Integer insertar(AlmacenesDTO almacen) {        
+        this.almacen = almacen;
+        return super.insertar();
     }
 
     @Override
@@ -125,67 +109,14 @@ public class AlmacenDAOImpl implements AlmacenDAO {
 
     @Override
     public Integer modificar(AlmacenesDTO almacen) {
-        int resultado = 0;
-        try {
-            this.conexion = DBManager.getInstance().getConnection();
-            this.conexion.setAutoCommit(false);
-            String sql = "UPDATE INV_ALMACENES SET NOMBRE=?, ALMACEN_CENTRAL=? WHERE ALMACEN_ID=?";
-            this.statement = this.conexion.prepareCall(sql);
-            this.statement.setString(1, almacen.getNombre());
-            this.statement.setInt(2, almacen.getAlmacen_central() ? 1 : 0);
-            this.statement.setInt(3, almacen.getAlmacenId());
-            resultado = this.statement.executeUpdate();
-            this.conexion.commit();
-        } catch (SQLException ex) {
-            System.err.println("Error al intentar modificar - " + ex);
-            try {
-                if (this.conexion != null) {
-                    this.conexion.rollback();
-                }
-            } catch (SQLException ex1) {
-                System.err.println("Error al hacer rollback - " + ex1);
-            }
-        } finally {
-            try {
-                if (this.conexion != null) {
-                    this.conexion.close();
-                }
-            } catch (SQLException ex) {
-                System.err.println("Error al cerrar la conexión - " + ex);
-            }
-        }
-        return resultado;
+        this.almacen = almacen;
+        return super.modificar();
     }
 
     @Override
     public Integer eliminar(AlmacenesDTO almacen) {
-        int resultado = 0;
-        try {
-            this.conexion = DBManager.getInstance().getConnection();
-            this.conexion.setAutoCommit(false);
-            String sql = "DELETE FROM INV_ALMACENES WHERE ALMACEN_ID=?";
-            this.statement = this.conexion.prepareCall(sql);
-            this.statement.setInt(1, almacen.getAlmacenId());
-            resultado = this.statement.executeUpdate();
-            this.conexion.commit();
-        } catch (SQLException ex) {
-            System.err.println("Error al intentar eliminar - " + ex);
-            try {
-                if (this.conexion != null) {
-                    this.conexion.rollback();
-                }
-            } catch (SQLException ex1) {
-                System.err.println("Error al hacer rollback - " + ex1);
-            }
-        } finally {
-            try {
-                if (this.conexion != null) {
-                    this.conexion.close();
-                }
-            } catch (SQLException ex) {
-                System.err.println("Error al cerrar la conexión - " + ex);
-            }
-        }
-        return resultado;
+        this.almacen = almacen;
+        return super.eliminar();
     }
+
 }
