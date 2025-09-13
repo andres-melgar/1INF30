@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pe.edu.pucp.softinv.dao.AlmacenDAOTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.567 s -- in pe.edu.pucp.softinv.dao.AlmacenDAOTest
