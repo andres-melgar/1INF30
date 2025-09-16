@@ -1,0 +1,5 @@
+# Created at 2025-09-16T07:15:09.093
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GitHubRepositorio\1INF30\0683\Sesión 09 - refactorización\refactorizado\SoftInvBusiness\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
