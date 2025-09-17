@@ -1,0 +1,12 @@
+pe\edu\pucp\softinv\daoImp\AlmacenDAOImpl.class
+pe\edu\pucp\softinv\daoImp\DAOImplBase$1.class
+pe\edu\pucp\softinv\daoImp\ReporteStockDAOImpl.class
+pe\edu\pucp\softinv\dao\AlmacenDAO.class
+pe\edu\pucp\softinv\daoImp\util\Columna.class
+pe\edu\pucp\softinv\daoImp\TipoDocumentoDAOImpl.class
+pe\edu\pucp\softinv\dao\ReporteStockDAO.class
+pe\edu\pucp\softinv\daoImp\DAOImplBase.class
+pe\edu\pucp\softinv\daoImp\util\ReporteStockParametrosBuilder.class
+pe\edu\pucp\softinv\daoImp\util\ReporteStockParametros.class
+pe\edu\pucp\softinv\daoImp\util\Tipo_Operacion.class
+pe\edu\pucp\softinv\dao\TipoDocumentoDAO.class
