@@ -73,14 +73,14 @@ public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO 
 
     @Override
     public void insertarDatosParaPrueba() {
-        String sql = "call SP_INV_INSERTAR_DATOS_PRUEBA_REPORTE_STOCK ()";
+        String sql = "{call SP_INV_INSERTAR_DATOS_PRUEBA_REPORTE_STOCK ()}";
         Boolean conTransacion = true;
         this.ejecutarProcedimientoAlmacenado(sql, conTransacion);
     }
 
     @Override
     public void eliminarDatosParaPrueba() {
-        String sql = "call SP_INV_ELIMINAR_DATOS_PRUEBA_REPORTE_STOCK ()";
+        String sql = "{call SP_INV_ELIMINAR_DATOS_PRUEBA_REPORTE_STOCK ()}";
         Boolean conTransacion = true;
         this.ejecutarProcedimientoAlmacenado(sql, conTransacion);
     }
@@ -91,7 +91,7 @@ public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO 
                 conAño(año).
                 conMes(mes).
                 BuilReporteStockParametros();
-        String sql = "call SP_INV_GENERAR_REPORTE_STOCK (?, ?)";
+        String sql = "{call SP_INV_GENERAR_REPORTE_STOCK (?, ?)}";
         Boolean conTransacion = true;
         //TODO
     }
