@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import pe.edu.pucp.softinv.daoImp.util.Columna;
 import pe.edu.pucp.softinv.daoImp.util.Tipo_Operacion;
 import pe.edu.pucp.softinv.db.DBManager;
@@ -314,11 +315,25 @@ public abstract class DAOImplBase {
     }
 
     public List listarTodos() {
+        String sql = null;
+        Consumer incluirValorDeParametros = null;
+        Object parametros = null;
+        return this.listarTodos(sql, incluirValorDeParametros, parametros);
+    }
+
+    public List listarTodos(String sql,
+            Consumer incluirValorDeParametros,
+            Object parametros) {
         List lista = new ArrayList<>();
         try {
             this.abrirConexion();
-            String sql = this.generarSQLParaListarTodos();
+            if (sql == null) {
+                sql = this.generarSQLParaListarTodos();
+            }
             this.colocarSQLEnStatement(sql);
+            if (incluirValorDeParametros != null) {
+                incluirValorDeParametros.accept(parametros);
+            }
             this.ejecutarSelectEnDB();
             while (this.resultSet.next()) {
                 agregarObjetoALaLista(lista);
@@ -339,12 +354,27 @@ public abstract class DAOImplBase {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public void ejecutarProcedimientoAlmacenado(String sql, Boolean conTransaccion) {
+    public void ejecutarProcedimientoAlmacenado(String sql,
+            Boolean conTransaccion) {
+        Consumer incluirValorDeParametros = null;
+        Object parametros = null;
+        this.ejecutarProcedimientoAlmacenado(sql, incluirValorDeParametros, parametros, conTransaccion);
+    }
+
+    public void ejecutarProcedimientoAlmacenado(String sql,
+            Consumer incluirValorDeParametros,
+            Object parametros,
+            Boolean conTransaccion) {
         try {
             if (conTransaccion) {
                 this.iniciarTransaccion();
+            } else {
+                this.abrirConexion();
             }
             this.colocarSQLEnStatement(sql);
+            if (incluirValorDeParametros != null) {
+                incluirValorDeParametros.accept(parametros);
+            }
             this.ejecutarDMLEnBD();
             if (conTransaccion) {
                 this.comitarTransaccion();

@@ -4,7 +4,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import pe.edu.pucp.softinv.dao.ReporteStockDAO;
+import pe.edu.pucp.softinv.daoImp.util.ReporteStockParametros;
 import pe.edu.pucp.softinv.daoImp.util.ReporteStockParametrosBuilder;
+import pe.edu.pucp.softinv.model.AlmacenesDTO;
 import pe.edu.pucp.softinv.model.ReportesStocksDTO;
 
 public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO {
@@ -30,10 +32,9 @@ public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO 
                 conMes(mes).
                 conAlmacenId(almacenId).
                 conProductoId(productoId).
-                BuilReporteStockParametros();
-        String sql = this.generarSQLParaListarPorPeriodo();
-        //TODO;
-        return null;
+                BuildReporteStockParametros();
+        String sql = this.generarSQLParaListarPorPeriodo();        
+        return (ArrayList<ReportesStocksDTO>) super.listarTodos(sql, this::incluirValorDeParametrosParaListarPorPeriodo, parametros);
     }
 
     private String generarSQLParaListarPorPeriodo() {
@@ -47,18 +48,31 @@ public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO 
         sql = sql.concat("r.SALIDAS, ");
         sql = sql.concat("r.SALDO_FINAL ");
         sql = sql.concat(" FROM INV_REPORTES_STOCKS r");
+        sql = sql.concat(" JOIN INV_PRODUCTOS p ON p.PRODUCTO_ID = r.PRODUCTO_ID ");
+        sql = sql.concat(" JOIN INV_TIPOS_PRODUCTOS t on t.TIPO_PRODUCTO_ID = p.TIPO_PRODUCTO_ID     ");
+        sql = sql.concat(" JOIN INV_ALMACENES a on a.ALMACEN_ID = r.ALMACEN_ID ");
         sql = sql.concat(" WHERE r.ANHO = ?");
         return sql;
     }
 
     private void incluirValorDeParametrosParaListarPorPeriodo(Object objetoParametros) {
-        //TODO
+        ReporteStockParametros parametros = (ReporteStockParametros) objetoParametros;
+        try {            
+            this.statement.setInt(1, parametros.getAño());            
+        } catch (SQLException ex) {
+            System.getLogger(ReporteStockDAOImpl.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
+        }
     }
 
     @Override
     protected void instanciarObjetoDelResultSet() throws SQLException {
         this.reporte = new ReportesStocksDTO();
 
+//        AlmacenesDTO almacen = new AlmacenesDTO();
+//        almacen.setAlmacenId(this.resultSet.getInt("ALMACEN_ID"));
+//        almacen.setNombre(this.resultSet.getString("NOMBRE_ALMACEN"));
+//        this.reporte.setAlmacen(almacen);
+        
         this.reporte.setSaldoInicial(this.resultSet.getDouble("SALDO_INICIAL"));
         this.reporte.setEntradas(this.resultSet.getInt("ENTRADAS"));
         this.reporte.setSalidas(this.resultSet.getInt("SALIDAS"));
@@ -90,14 +104,20 @@ public class ReporteStockDAOImpl extends DAOImplBase implements ReporteStockDAO 
         Object parametros = new ReporteStockParametrosBuilder().
                 conAño(año).
                 conMes(mes).
-                BuilReporteStockParametros();
+                BuildReporteStockParametros();
         String sql = "{call SP_INV_GENERAR_REPORTE_STOCK (?, ?)}";
         Boolean conTransacion = true;
-        //TODO
+        this.ejecutarProcedimientoAlmacenado(sql, this::incluirValorDeParametrosParaGenerarReporteStock, parametros, conTransacion);
     }
     
     private void incluirValorDeParametrosParaGenerarReporteStock(Object objetoParametros) {
-        //TODO
+        ReporteStockParametros parametros = (ReporteStockParametros) objetoParametros;
+        try {            
+            this.statement.setInt(1, parametros.getAño());
+            this.statement.setInt(2, parametros.getMes());
+        } catch (SQLException ex) {
+            System.getLogger(ReporteStockDAOImpl.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
+        }
     }
 
 }
