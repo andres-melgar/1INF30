@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftInv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB6F4769-2E28-4D4E-8618-759F62D25AB9}|SoftInvTest\\SoftInvTest.csproj|d:\\softinv\\softinvtest\\softinvbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB6F4769-2E28-4D4E-8618-759F62D25AB9}|SoftInvTest\\SoftInvTest.csproj|solutionrelative:softinvtest\\softinvbotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA07D4E-5077-419B-8A9C-C40E62DAD0AA}|SoftInvBO\\SoftInvBO.csproj|d:\\softinv\\softinvbo\\almacenbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA07D4E-5077-419B-8A9C-C40E62DAD0AA}|SoftInvBO\\SoftInvBO.csproj|solutionrelative:softinvbo\\almacenbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|d:\\softinv\\softinvpersistance\\daoimpl\\almacendaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|solutionrelative:softinvpersistance\\daoimpl\\almacendaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|d:\\softinv\\softinvpersistance\\daoimpl\\daoimplbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|solutionrelative:softinvpersistance\\daoimpl\\daoimplbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|d:\\softinv\\softinvpersistance\\dao\\almacendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF35A60-DABA-4A14-A7EC-3BF2359C9590}|SoftInvPersistance\\SoftInvPersistance.csproj|solutionrelative:softinvpersistance\\dao\\almacendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoftInvBOTest.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvTest\\SoftInvBOTest.cs",
+              "RelativeDocumentMoniker": "SoftInvTest\\SoftInvBOTest.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvTest\\SoftInvBOTest.cs",
+              "RelativeToolTip": "SoftInvTest\\SoftInvBOTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:01:18.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlmacenBO.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvBO\\AlmacenBO.cs",
+              "RelativeDocumentMoniker": "SoftInvBO\\AlmacenBO.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvBO\\AlmacenBO.cs",
+              "RelativeToolTip": "SoftInvBO\\AlmacenBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:00:22.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlmacenDAO.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvPersistance\\DAO\\AlmacenDAO.cs",
+              "RelativeDocumentMoniker": "SoftInvPersistance\\DAO\\AlmacenDAO.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvPersistance\\DAO\\AlmacenDAO.cs",
+              "RelativeToolTip": "SoftInvPersistance\\DAO\\AlmacenDAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:53:26.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAOImplBase.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvPersistance\\DAOImpl\\DAOImplBase.cs",
+              "RelativeDocumentMoniker": "SoftInvPersistance\\DAOImpl\\DAOImplBase.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvPersistance\\DAOImpl\\DAOImplBase.cs",
+              "RelativeToolTip": "SoftInvPersistance\\DAOImpl\\DAOImplBase.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAASwKEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:52:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlmacenDAOImpl.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvPersistance\\DAOImpl\\AlmacenDAOImpl.cs",
+              "RelativeDocumentMoniker": "SoftInvPersistance\\DAOImpl\\AlmacenDAOImpl.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvPersistance\\DAOImpl\\AlmacenDAOImpl.cs",
+              "RelativeToolTip": "SoftInvPersistance\\DAOImpl\\AlmacenDAOImpl.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswD0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T22:52:28.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
