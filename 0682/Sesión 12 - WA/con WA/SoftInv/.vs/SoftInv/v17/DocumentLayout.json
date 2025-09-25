@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftInv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8320767-FE8F-4FBB-B04C-EA305B158867}|SoftInvWA\\SoftInvWA.csproj|D:\\SoftInv\\softinvwa\\prueba.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8320767-FE8F-4FBB-B04C-EA305B158867}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\prueba.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8320767-FE8F-4FBB-B04C-EA305B158867}|SoftInvWA\\SoftInvWA.csproj|D:\\SoftInv\\softinvwa\\prueba.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B8320767-FE8F-4FBB-B04C-EA305B158867}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\prueba.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prueba.aspx.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\Prueba.aspx.cs",
+              "RelativeDocumentMoniker": "SoftInvWA\\Prueba.aspx.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\Prueba.aspx.cs",
+              "RelativeToolTip": "SoftInvWA\\Prueba.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:35:24.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prueba.aspx",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\Prueba.aspx",
+              "RelativeDocumentMoniker": "SoftInvWA\\Prueba.aspx",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\Prueba.aspx",
+              "RelativeToolTip": "SoftInvWA\\Prueba.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-25T13:34:41.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
