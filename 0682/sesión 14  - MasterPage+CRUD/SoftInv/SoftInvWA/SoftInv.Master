@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SoftInv.master.cs" Inherits="SoftInvWA.SoftInv" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Fonts/css/all.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootstrap.bundle.js"></script>
+    <script src="Scripts/jquery-3.7.1.js"></script>
+
+    <title>
+        <asp:ContentPlaceHolder ID="cphTitulo" runat="server">                    
+        </asp:ContentPlaceHolder>
+    </title>
+</head>
+<body>
+    <div class="container-fluid d-flex p-0 h-100">
+        <!--Menu Lateral-->
+        <div id="bdSidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-primary text-white offcanvas-md offcanvas-start">
+            <a href="http://www.pucp.edu.pe" class="navbar-brand">
+                <img src="Images/pucp.png" width="150" />
+            </a>
+            <hr>
+            <ul class="mynav nav nav-pills flex-column mb-auto">
+                <li class="nav-item mb-1">
+                    <a href="almacen_listado.aspx"><i class="fa-solid fa-warehouse"></i>Almacén</a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="movimiento_listado.aspx"><i class="fa-solid fa-arrows-spin"></i>Movimiento</a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="producto_listado.aspx"><i class="fa-solid fa-gift"></i>Producto</a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="reporte_stock.aspx"><i class="fa-solid fa-file-lines"></i>Reporte</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="d-flex">
+                <i class="fa-solid fa-book me-2"></i>
+                <h6 class="mt-1 mb-0">PUCP - Programación 3</h6>
+            </div>
+        </div>
+        <!-- Contenido Derecha -->
+        <div class="bg-light flex-fill overflow-auto">
+            <!-- Barra superior para dispositivos pequeños -->
+            <div class="p-2 d-md-none d-flex text-white bg-primary">
+                <a data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" class="text-white" href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <img src="Images/pucp.png" class="ms-3" width="75">
+            </div>
+            <!-- Barra de Usuario -->
+            <nav class="navbar navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-sm-none d-md-block d-none d-sm-block">Gestión de Inventario</a>
+                    <form class="d-flex">
+                        <div class="dropdown ps-3">
+                            <button class="btn btn-outline-light dropdown-toggle"
+                                id="btnUsuario" data-bs-toggle="dropdown" type="button"
+                                aria-expanded="false">
+                                <i class="fas fa-user me-2"></i>Andrés Melgar
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnUsuario">
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Cambiar Contraseña</a></li>
+                                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+            <!-- Contenido de la Página Web -->
+            <div class="p-4">
+                <form runat="server">
+                    <asp:ContentPlaceHolder ID="cphContenido" runat="server">
+                    </asp:ContentPlaceHolder>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
