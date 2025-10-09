@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftInv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|d:\\softinv\\softinvwa\\producto_listado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\producto_listado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|d:\\softinv\\softinvwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}|SoftInvBusiness\\SoftInvBusiness.csproj|d:\\softinv\\softinvbusiness\\tipoproductobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}|SoftInvBusiness\\SoftInvBusiness.csproj|solutionrelative:softinvbusiness\\tipoproductobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|d:\\softinv\\softinvwa\\scripts\\softinvscripts\\gestionar_modales_productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\scripts\\softinvscripts\\gestionar_modales_productos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoProductoBO.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvBusiness\\TipoProductoBO.cs",
+              "RelativeDocumentMoniker": "SoftInvBusiness\\TipoProductoBO.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvBusiness\\TipoProductoBO.cs",
+              "RelativeToolTip": "SoftInvBusiness\\TipoProductoBO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:38:54.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "producto_listado.aspx",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx",
+              "RelativeDocumentMoniker": "SoftInvWA\\producto_listado.aspx",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx",
+              "RelativeToolTip": "SoftInvWA\\producto_listado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-09T12:55:21.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "producto_listado.aspx.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx.cs",
+              "RelativeDocumentMoniker": "SoftInvWA\\producto_listado.aspx.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx.cs",
+              "RelativeToolTip": "SoftInvWA\\producto_listado.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:16:16.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gestionar_modales_productos.js",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\Scripts\\SoftInvScripts\\gestionar_modales_productos.js",
+              "RelativeDocumentMoniker": "SoftInvWA\\Scripts\\SoftInvScripts\\gestionar_modales_productos.js",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\Scripts\\SoftInvScripts\\gestionar_modales_productos.js",
+              "RelativeToolTip": "SoftInvWA\\Scripts\\SoftInvScripts\\gestionar_modales_productos.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-09T13:16:49.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
