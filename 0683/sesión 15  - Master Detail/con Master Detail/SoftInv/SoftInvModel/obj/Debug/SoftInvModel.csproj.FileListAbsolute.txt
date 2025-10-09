@@ -1,0 +1,12 @@
+C:\SoftInv\SoftInvModel\bin\Debug\SoftInvModel.dll
+C:\SoftInv\SoftInvModel\bin\Debug\SoftInvModel.pdb
+C:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.csproj.AssemblyReference.cache
+C:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.csproj.CoreCompileInputs.cache
+C:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.dll
+C:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.pdb
+D:\SoftInv\SoftInvModel\bin\Debug\SoftInvModel.dll
+D:\SoftInv\SoftInvModel\bin\Debug\SoftInvModel.pdb
+D:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.csproj.AssemblyReference.cache
+D:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.csproj.CoreCompileInputs.cache
+D:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.dll
+D:\SoftInv\SoftInvModel\obj\Debug\SoftInvModel.pdb

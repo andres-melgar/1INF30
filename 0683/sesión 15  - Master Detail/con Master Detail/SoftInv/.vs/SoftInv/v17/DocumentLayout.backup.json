@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftInv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|d:\\softinv\\softinvwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\producto_listado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|d:\\softinv\\softinvwa\\producto_listado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD874541-7672-4EEC-BB32-6EF59753A817}|SoftInvWA\\SoftInvWA.csproj|solutionrelative:softinvwa\\producto_listado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}|SoftInvBusiness\\SoftInvBusiness.csproj|d:\\softinv\\softinvbusiness\\tipoproductobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}|SoftInvBusiness\\SoftInvBusiness.csproj|solutionrelative:softinvbusiness\\tipoproductobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "producto_listado.aspx",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx",
+              "RelativeDocumentMoniker": "SoftInvWA\\producto_listado.aspx",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx",
+              "RelativeToolTip": "SoftInvWA\\producto_listado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-09T15:18:57.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoProductoBO.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvBusiness\\TipoProductoBO.cs",
+              "RelativeDocumentMoniker": "SoftInvBusiness\\TipoProductoBO.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvBusiness\\TipoProductoBO.cs",
+              "RelativeToolTip": "SoftInvBusiness\\TipoProductoBO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T15:40:57.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "producto_listado.aspx.cs",
+              "DocumentMoniker": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx.cs",
+              "RelativeDocumentMoniker": "SoftInvWA\\producto_listado.aspx.cs",
+              "ToolTip": "D:\\SoftInv\\SoftInvWA\\producto_listado.aspx.cs",
+              "RelativeToolTip": "SoftInvWA\\producto_listado.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T15:19:50.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
