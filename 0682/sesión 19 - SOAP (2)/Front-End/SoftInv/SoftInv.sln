@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftInvBusiness", "SoftInvBusiness\SoftInvBusiness.csproj", "{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftInvWA", "SoftInvWA\SoftInvWA.csproj", "{AD874541-7672-4EEC-BB32-6EF59753A817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CA282F-4001-4192-ADC0-A8D2C9A0F7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD874541-7672-4EEC-BB32-6EF59753A817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD874541-7672-4EEC-BB32-6EF59753A817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD874541-7672-4EEC-BB32-6EF59753A817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD874541-7672-4EEC-BB32-6EF59753A817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1A85FCD-9500-4DF8-B7B3-7956507C3768}
+	EndGlobalSection
+EndGlobal

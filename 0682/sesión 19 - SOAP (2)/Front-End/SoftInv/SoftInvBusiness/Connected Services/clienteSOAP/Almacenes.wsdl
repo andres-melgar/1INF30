@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.softinv.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="Almacenes" targetNamespace="http://services.softinv.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/SoftInvWS/Almacenes?xsd=1" namespace="http://services.softinv.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="inserta_almacen">
+    <part name="parameters" element="tns:inserta_almacen" />
+  </message>
+  <message name="inserta_almacenResponse">
+    <part name="parameters" element="tns:inserta_almacenResponse" />
+  </message>
+  <message name="eliminar">
+    <part name="parameters" element="tns:eliminar" />
+  </message>
+  <message name="eliminarResponse">
+    <part name="parameters" element="tns:eliminarResponse" />
+  </message>
+  <message name="modificar">
+    <part name="parameters" element="tns:modificar" />
+  </message>
+  <message name="modificarResponse">
+    <part name="parameters" element="tns:modificarResponse" />
+  </message>
+  <message name="listarTodos">
+    <part name="parameters" element="tns:listarTodos" />
+  </message>
+  <message name="listarTodosResponse">
+    <part name="parameters" element="tns:listarTodosResponse" />
+  </message>
+  <message name="obtenerPorId">
+    <part name="parameters" element="tns:obtenerPorId" />
+  </message>
+  <message name="obtenerPorIdResponse">
+    <part name="parameters" element="tns:obtenerPorIdResponse" />
+  </message>
+  <portType name="Almacenes">
+    <operation name="inserta_almacen">
+      <input wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/inserta_almacenRequest" message="tns:inserta_almacen" />
+      <output wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/inserta_almacenResponse" message="tns:inserta_almacenResponse" />
+    </operation>
+    <operation name="eliminar">
+      <input wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/eliminarRequest" message="tns:eliminar" />
+      <output wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/eliminarResponse" message="tns:eliminarResponse" />
+    </operation>
+    <operation name="modificar">
+      <input wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/modificarRequest" message="tns:modificar" />
+      <output wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/modificarResponse" message="tns:modificarResponse" />
+    </operation>
+    <operation name="listarTodos">
+      <input wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/listarTodosRequest" message="tns:listarTodos" />
+      <output wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/listarTodosResponse" message="tns:listarTodosResponse" />
+    </operation>
+    <operation name="obtenerPorId">
+      <input wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/obtenerPorIdRequest" message="tns:obtenerPorId" />
+      <output wsam:Action="http://services.softinv.pucp.edu.pe/Almacenes/obtenerPorIdResponse" message="tns:obtenerPorIdResponse" />
+    </operation>
+  </portType>
+  <binding name="AlmacenesPortBinding" type="tns:Almacenes">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="inserta_almacen">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarTodos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="obtenerPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Almacenes">
+    <port name="AlmacenesPort" binding="tns:AlmacenesPortBinding">
+      <soap:address location="http://localhost:8080/SoftInvWS/Almacenes" />
+    </port>
+  </service>
+</definitions>
