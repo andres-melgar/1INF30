@@ -1,0 +1,12 @@
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\PruebaRENIEC.exe.config
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\PruebaRENIEC.exe
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\PruebaRENIEC.pdb
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\ClienteRENIEC.dll
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\ClienteRENIEC.pdb
+D:\ClienteSOAP\PruebaRENIEC\bin\Debug\ClienteRENIEC.dll.config
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRENIEC.csproj.AssemblyReference.cache
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRENIEC.csproj.CoreCompileInputs.cache
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRE.AB1ED506.Up2Date
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRENIEC.exe
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRENIEC.pdb
+D:\ClienteSOAP\PruebaRENIEC\obj\Debug\PruebaRENIEC.exe.config

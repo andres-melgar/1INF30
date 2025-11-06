@@ -1,0 +1,7 @@
+D:\ClienteSOAP\ClienteRENIEC\bin\Debug\ClienteRENIEC.dll.config
+D:\ClienteSOAP\ClienteRENIEC\bin\Debug\ClienteRENIEC.dll
+D:\ClienteSOAP\ClienteRENIEC\bin\Debug\ClienteRENIEC.pdb
+D:\ClienteSOAP\ClienteRENIEC\obj\Debug\ClienteRENIEC.csproj.AssemblyReference.cache
+D:\ClienteSOAP\ClienteRENIEC\obj\Debug\ClienteRENIEC.csproj.CoreCompileInputs.cache
+D:\ClienteSOAP\ClienteRENIEC\obj\Debug\ClienteRENIEC.dll
+D:\ClienteSOAP\ClienteRENIEC\obj\Debug\ClienteRENIEC.pdb

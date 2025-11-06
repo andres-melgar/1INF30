@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.softRENIEC.pucp.edu.pe/" targetNamespace="http://services.softRENIEC.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="consulta" type="tns:consulta" />
+  <xs:element name="consultaResponse" type="tns:consultaResponse" />
+  <xs:complexType name="consulta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DNI" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:personasDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="personasDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DNI" type="xs:string" />
+      <xs:element minOccurs="0" name="materno" type="xs:string" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+      <xs:element minOccurs="0" name="paterno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
