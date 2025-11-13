@@ -22,7 +22,7 @@ public class AlmacenBO {
 
     public AlmacenBO() {
         //OJO, esto debe leerse de un .properties
-        this.url = "http://localhost:8080/SoftInvBusinessServidorWS/resources/Almacenes";
+        this.url = "http://localhost:8080/SoftInvBusinessServidorWS-1.0-SNAPSHOT/resources/Almacenes";
         this.mapper = new ObjectMapper();
     }
 

@@ -1,0 +1,171 @@
+Proyecto Netbeans
+ - Se compila el proyecto en Netbeans
+ - Se verifica que funciona bien
+ - Se verifica que funcione el Servicio RESTFul
+ - Se verifica que funcione el Servicio SOAP
+
+AWS Inicio de sesion
+ - Se inicia sesión (como student login)
+	https://www.awsacademy.com/vforcesite/LMS_Login
+ 
+AWS Laboratorio de aprendizaje
+ AWS Academy Learner Lab [125196]
+ -> Módulos
+ -> Laboratorio de aprendizaje de AWS Academy
+ -> Iniciar el Laboratorio de aprendizaje de AWS Academy
+ -> Start Lab
+ -> AWS
+
+ Página de inicio de la Consola
+
+AWS Servicio RDS
+-> Instancias de base de datos
+-> Crear base de datos
+-> MySQL
+Plantillas -> Capa gratuita
+Configuración -> Identificador -> soft-inv-test / soft-ven-test
+Configuración de credenciales -> admin -> Programacion3!
+Configuración de la instancia -> db.t3.micro
+Conectividad -> Acceso público -> Sí
+-> Crear base de datos
+
+softpubdb -> Seguridad -> Grupos de seguridad de la VPC
+	* entrar en el grupo para editar las reglas de entrada
+	* eliminamos regla
+	* agregamos regla: typo MySQL/Aurora, Anywhere IPv4
+
+
+AWS Servicio EC2 - Back
+-> Lanzar instancia
+Nombre -> clase-soft-inv-back / clase-soft-ven-back
+Imagen de Windows
+Crear par de claves -> soft-inv-back / soft-ven-back
+IMPORTANTE: COLOCAR t3.medium ES POR DEFECTO ES DEMASIADO LENTO
+
+Se verifica la Seguridad
+ -> regla de entrada
+ -> TCP Personalizado -> TCP 8080
+ -> RDP -> TCP 3389
+
+AWS Servicio EC2 - Front
+-> Lanzar instancia
+Nombre -> clase-soft-inv-front / clase-soft-ven-front
+Imagen de Windows
+Crear par de claves -> soft-inv-front / soft-ven-front
+IMPORTANTE: COLOCAR t3.medium ES POR DEFECTO ES DEMASIADO LENTO
+
+Se lanca la instancia y una vez que esté iniciada
+-> Conectar
+-> Cliente RPD
+-> Descargar archivo de escritorio remoto (mostrar su uso)
+-> Obtener contraseña
+
+Se usará la conexión de Windows
+-> Conexión a escritorio remoto
+-> Colocar servidor y contraseña
+-> Mostrar más opciones -> Recursos Locales -> Dispositivos y recursos locales -> más -> Disco Local C
+-> Conectar
+
+Instalaciones
+ -> jdk
+ -> glashfisg
+
+glashfisg: Configuración
+ -> enlace al java en asenv.bat
+ 	C:\Program Files\glassfish7\glassfish\config
+ -> incluir en el archivo la línea
+ 	set AS_JAVA = C:\Program Files\Java\jdk-21
+
+glashfisg: iniciar y parar
+ -> glassfish7\glassfish\bin\asadmin start-domain
+ -> verificar en http://localhost:4848
+ -> glassfish7\glassfish\bin\asadmin stop-domain
+
+ Para desplegar el war: opción 1
+ -> abrir la consola -> http://localhost:4848/common/index.jsf
+ -> deploy
+ -> ok
+
+Para desplegar el war: opción 2
+ -> por línea de comando
+ -> asadmin deploy C:\ServiciosWeb\SoftVenBusinessServidorWS-1.0.war
+ -> asadmin deploy C:\ServiciosWeb\SoftVenWS-1.0.war
+
+http://localhost:8080/SoftVenBusinessServidorWS-1.0/resources/Productos
+http://localhost:8080/SoftVenWS-1.0/productos?wsdl
+
+http://localhost:8080/SoftInvBusinessServidorWS/resources/Almacenes
+
+ -> asadmin redeploy --name SoftPubWS_Servidor C:\Instaladores\SoftPubWS_Servidor.war 
+
+Probar el tester de forma local
+ -> configurar la base de datos
+
+Probar el tester por fuera del servidor
+ -> usar el ip público
+	http://98.82.167.212:8080/SoftPubWS_Servidor/ServicioWeb?WSDL
+ -> no funciona, configurar el firewall
+
+ Configuración del firewall
+  -> Windows Defender Firewall With Advanced Security
+  -> Inbound rules
+  -> New Rule
+  -> Port
+  -> TCP 8080
+  -> Allow the conection
+  -> por defecto todo check
+  -> Se le pone un nombre a la regla 
+
+Usar el servicio Web en el WA
+ -> cambiar el IP en el archivo Web.config
+ -> por ejemplo: <endpoint address="http://98.82.167.212:8080/SoftPubWS_Servidor/ServicioWeb"
+    binding="basicHttpBinding" bindingConfiguration="ServicioWebPortBinding"
+    contract="ServicioWeb.ServicioWeb" name="ServicioWebPort" />
+
+AWS Servicio EC2 - Front
+-> Lanzar instancia
+Nombre -> aplicación Web
+Imagen de Windows
+Crear par de claves -> softpub_front
+IMPORTANTE: COLOCAR t2.medium o t3.medium ES POR DEFECTO ES DEMASIADO LENTO
+
+Se lanca la instancia y una vez que esté iniciada
+-> Conectar
+-> Cliente RPD
+-> Descargar archivo de escritorio remoto (mostrar su uso)
+-> Obtener contraseña
+
+Se usará la conexión de Windows
+-> Conexión a escritorio remoto
+-> Colocar servidor y contraseña
+-> Mostrar más opciones -> Recursos Locales -> Dispositivos y recursos locales -> más -> Disco Local C
+-> Conectar
+
+Instalaciones
+ -> .Net Framework
+ -> IIS
+ -> Server Manager
+ -> Manage
+ -> Add Roles and Features 
+ -> next -> next -> next
+ -> Habilitar: Web Server (IIS) con sus dependencias
+ -> Habilitar: todas las características del .NET Framework 4.8
+ -> Habilitar: todas las características del WCF
+ -> Habilitar: Common HTTP Features (todas las opciones)
+
+ Publicar en Visual Studio
+  -> Compilar
+  -> Publicar SoftPubWA
+  	Carpeta
+
+ Copia la carpeta en
+  -> C:\inetpub
+  -> wwwroot
+
+Internet Information Services Management
+ -> site
+ -> add web site
+
+Si se quiere habilitar la navegación
+ -> Directory Browsing
+ -> Enable
