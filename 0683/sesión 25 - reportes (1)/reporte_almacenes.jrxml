@@ -1,0 +1,82 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="reporte_almacenes" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b06ebb2b-0cfc-4d7c-8ee5-fbaaabd7f270">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="soft_inv_test"/>
+	<style name="Style1">
+		<conditionalStyle backcolor="#77C4E6">
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2==1]]></conditionExpression>
+		</conditionalStyle>
+	</style>
+	<query language="SQL"><![CDATA[SELECT almacen_id, nombre, almacen_central FROM soft_inv_test.inv_almacenes;]]></query>
+	<field name="almacen_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ALMACEN_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="almacen_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_almacenes"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOMBRE"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_almacenes"/>
+	</field>
+	<field name="almacen_central" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ALMACEN_CENTRAL"/>
+		<property name="com.jaspersoft.studio.field.label" value="almacen_central"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_almacenes"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="63" splitType="Stretch">
+		<element kind="staticText" uuid="60e00fdf-3a64-43c3-833b-a6055c50be39" x="130" y="0" width="300" height="30" fontSize="18.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[Reporte de Almacenes]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e828b8ea-be0c-4703-abe5-0255ce09d8e1" x="190" y="30" width="100" height="30" hTextAlign="Right">
+			<text><![CDATA[Reporte generado el: ]]></text>
+		</element>
+		<element kind="textField" uuid="934ff924-e403-406f-8961-f496c884c438" x="293" y="30" width="100" height="30" pattern="d/M//yy">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+	</title>
+	<pageHeader height="8" splitType="Stretch"/>
+	<columnHeader height="16" splitType="Stretch">
+		<element kind="staticText" uuid="dbef07c7-b629-4a11-a65d-12f13054652b" x="0" y="0" width="185" height="15" bold="true" hTextAlign="Center">
+			<text><![CDATA[Código Almacén]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0f318159-84de-4967-9436-b7b4c5059e00"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="ddb2dccb-7b1f-47ba-9aac-df63f2e16bc5" x="185" y="0" width="185" height="15" bold="true" hTextAlign="Left">
+			<text><![CDATA[Nombre]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="df0ae990-d30f-4921-bee7-396283440bb6"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="2663c83f-5562-4f91-b9cb-0d1082fab2da" x="370" y="0" width="185" height="15" bold="true" hTextAlign="Center">
+			<text><![CDATA[¿Almacén Central?]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8fbf88a1-9da5-4bbe-a25a-93b53065b5bd"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<element kind="textField" uuid="2aaf0ede-7cb4-4ef0-a16a-63c63422f581" mode="Opaque" x="0" y="0" width="185" height="15" hTextAlign="Center" style="Style1">
+				<expression><![CDATA[$F{almacen_id}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0f318159-84de-4967-9436-b7b4c5059e00"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="26cdab11-888f-4e7b-a14a-c13314d31684" mode="Opaque" x="185" y="0" width="185" height="15" hTextAlign="Left" style="Style1">
+				<expression><![CDATA[$F{nombre}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="df0ae990-d30f-4921-bee7-396283440bb6"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="44c5a1b3-91d7-4df8-a824-74b29b4e21a8" mode="Opaque" x="370" y="0" width="185" height="15" hTextAlign="Center" style="Style1">
+				<expression><![CDATA[$F{almacen_central}==1?"Sí":"No"]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8fbf88a1-9da5-4bbe-a25a-93b53065b5bd"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

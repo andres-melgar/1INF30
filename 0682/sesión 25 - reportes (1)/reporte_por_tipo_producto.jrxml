@@ -1,0 +1,153 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="reporte_por_tipo_producto" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fff2f8c4-b3a2-4e28-a703-dd85c4a9d92f">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="soft_inv_test"/>
+	<style name="Style1">
+		<conditionalStyle mode="Opaque" backcolor="#77C4E6">
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2==0]]></conditionExpression>
+		</conditionalStyle>
+	</style>
+	<parameter name="pTipoProductoId" class="java.lang.Integer"/>
+	<query language="SQL"><![CDATA[select t.tipo_producto_id,
+t.nombre as nombre_tipo,
+t.descripcion,
+p.producto_id,
+p.nombre,
+p.marca, 
+p.modelo
+from inv_productos p
+join inv_tipos_productos t on
+t.tipo_producto_id = p.tipo_producto_id
+where ((t.tipo_producto_id = $P{pTipoProductoId}) or (t.tipo_producto_id != 0 and $P{pTipoProductoId}=0))
+order by t.tipo_producto_id ]]></query>
+	<field name="tipo_producto_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="TIPO_PRODUCTO_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipo_producto_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_tipos_productos"/>
+	</field>
+	<field name="nombre_tipo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOMBRE"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre_tipo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_tipos_productos"/>
+	</field>
+	<field name="descripcion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="DESCRIPCION"/>
+		<property name="com.jaspersoft.studio.field.label" value="descripcion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_tipos_productos"/>
+	</field>
+	<field name="producto_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="PRODUCTO_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="producto_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_productos"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOMBRE"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_productos"/>
+	</field>
+	<field name="marca" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MARCA"/>
+		<property name="com.jaspersoft.studio.field.label" value="marca"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_productos"/>
+	</field>
+	<field name="modelo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MODELO"/>
+		<property name="com.jaspersoft.studio.field.label" value="modelo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inv_productos"/>
+	</field>
+	<group name="Group1">
+		<expression><![CDATA[$F{tipo_producto_id}]]></expression>
+		<groupHeader>
+			<band height="42">
+				<element kind="textField" uuid="69a12ae8-501a-4ca0-a63e-e2aa91538da4" mode="Opaque" x="0" y="0" width="185" height="15" backcolor="#325AC7" hTextAlign="Center">
+					<expression><![CDATA[$F{tipo_producto_id}]]></expression>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="textField" uuid="f39f9013-a511-4e4b-8f5e-93be139bb15f" mode="Opaque" x="185" y="0" width="185" height="15" backcolor="#325AC7">
+					<expression><![CDATA[$F{nombre_tipo}]]></expression>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="textField" uuid="e51d1d28-8ed0-4913-aedb-0321a411eff4" mode="Opaque" x="370" y="0" width="185" height="15" backcolor="#325AC7">
+					<expression><![CDATA[$F{descripcion}]]></expression>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="staticText" uuid="0b6592fb-4e56-4b81-9cfa-2e8fca0e83b8" x="0" y="23" width="141" height="15" bold="true" hTextAlign="Center">
+					<text><![CDATA[# Producto]]></text>
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a93834a5-8c87-40b1-9984-515602df4895"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="staticText" uuid="535c1f4b-1fcf-4f58-ac5e-0960b4afe969" x="141" y="23" width="138" height="15" bold="true">
+					<text><![CDATA[Nombre]]></text>
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="95ff2c43-f5f8-4872-8eef-aea0e0277588"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="staticText" uuid="64651d1e-63b9-46f2-98a6-3a697a4a6f56" x="279" y="23" width="138" height="15" bold="true">
+					<text><![CDATA[Marca]]></text>
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8676fd37-bc18-4c2c-ae87-ae62dd2624fa"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+				<element kind="staticText" uuid="68d36e52-6199-4453-bb88-905132cea109" x="417" y="23" width="138" height="15" bold="true">
+					<text><![CDATA[Modelo]]></text>
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7b9abd72-a4f2-445b-8671-11e115181189"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<background splitType="Stretch"/>
+	<title height="48" splitType="Stretch">
+		<element kind="staticText" uuid="81882a5d-360c-4c6e-bdb6-8af60991549e" x="141" y="0" width="276" height="25" fontSize="16.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[Reporte de Tipo de Productos]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="837d3fce-cf24-4e62-ab0e-382b7303d734" x="203" y="23" width="100" height="15" hTextAlign="Right">
+			<text><![CDATA[Reporte generado el: ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="281ebb73-8fad-454e-84ad-3770b3e1e1b3" x="306" y="23" width="100" height="15" pattern="d/M/yy">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</title>
+	<columnHeader height="19" splitType="Stretch">
+		<element kind="staticText" uuid="66df83a3-9afa-4d09-aa8e-268d64389a68" x="0" y="0" width="180" height="15" bold="true" hTextAlign="Center">
+			<text><![CDATA[#Tipo Producto]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a93834a5-8c87-40b1-9984-515602df4895"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e6a465b0-3654-4c12-beeb-fdfae993e798" x="185" y="0" width="183" height="15" bold="true">
+			<text><![CDATA[Nombre]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="95ff2c43-f5f8-4872-8eef-aea0e0277588"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="e229cc75-2487-4cf2-82b4-fb6b1b775296" x="370" y="0" width="185" height="15" bold="true">
+			<text><![CDATA[Descripción]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8676fd37-bc18-4c2c-ae87-ae62dd2624fa"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<element kind="textField" uuid="bd9eb970-534b-49cf-9c98-1c1e037042d2" mode="Opaque" x="0" y="0" width="141" height="15" hTextAlign="Center" style="Style1">
+				<expression><![CDATA[$F{producto_id}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a93834a5-8c87-40b1-9984-515602df4895"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="2a7f0781-5ccb-4fd1-84f3-0eda08341643" mode="Opaque" x="141" y="0" width="138" height="15" style="Style1">
+				<expression><![CDATA[$F{nombre}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="95ff2c43-f5f8-4872-8eef-aea0e0277588"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="ad9b9d6f-4c8f-4b91-9625-0fa3d99ba725" mode="Opaque" x="279" y="0" width="138" height="15" style="Style1">
+				<expression><![CDATA[$F{marca}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8676fd37-bc18-4c2c-ae87-ae62dd2624fa"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="812e5cd5-6192-4eee-9b22-ba52597ef849" mode="Opaque" x="417" y="0" width="138" height="15" style="Style1">
+				<expression><![CDATA[$F{modelo}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7b9abd72-a4f2-445b-8671-11e115181189"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

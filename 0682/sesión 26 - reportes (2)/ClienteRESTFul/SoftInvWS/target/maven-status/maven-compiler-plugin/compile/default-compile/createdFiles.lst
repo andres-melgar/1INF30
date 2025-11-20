@@ -1,0 +1,4 @@
+pe\edu\pucp\softinv\reports\ReporteUtil.class
+pe\edu\pucp\softinv\services\JakartaRestConfiguration.class
+pe\edu\pucp\softinv\services\Almacenes.class
+pe\edu\pucp\softinv\services\resources\JakartaEE10Resource.class
