@@ -1,0 +1,9 @@
+pe\edu\pucp\softinv\model\AlmacenesDTO.class
+pe\edu\pucp\softinv\model\ProductosDTO.class
+pe\edu\pucp\softinv\model\TipoOperacion.class
+pe\edu\pucp\softinv\model\PeriodosDTO.class
+pe\edu\pucp\softinv\model\MovimientosDTO.class
+pe\edu\pucp\softinv\model\ReportesStocksDTO.class
+pe\edu\pucp\softinv\model\TiposDocumentosDTO.class
+pe\edu\pucp\softinv\model\TiposMovimientosDTO.class
+pe\edu\pucp\softinv\model\TiposProductosDTO.class

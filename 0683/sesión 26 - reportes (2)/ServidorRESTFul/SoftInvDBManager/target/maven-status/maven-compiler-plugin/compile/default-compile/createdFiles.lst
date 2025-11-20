@@ -1,0 +1,5 @@
+pe\edu\pucp\softinv\db\DBManager.class
+pe\edu\pucp\softinv\db\DBManagerMSSQL.class
+pe\edu\pucp\softinv\db\util\Cifrado.class
+pe\edu\pucp\softinv\db\DBManagerMySQL.class
+pe\edu\pucp\softinv\db\util\MotorDeBaseDeDatos.class
